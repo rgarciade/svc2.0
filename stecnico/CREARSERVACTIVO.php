@@ -78,7 +78,7 @@ $(document).ready(function() {
 ?>
  <script language="JavaScript">
 function newPage(url){
-window.open(url,"","algun parametro que desees");
+	window.open(url,"","algun parametro que desees");
 }
 </script>
 
@@ -88,56 +88,65 @@ window.open(url,"","algun parametro que desees");
 </div>
 
 <div class="CSSTableGenerator1" >
-<table style="width: 785px">
-<!--formulario nuevo servicio-->
-<?PHP #variables en blanco
-$noex="";
+	<table style="width: 785px">
+		<!--formulario nuevo servicio-->
+		<?PHP #variables en blanco
+		$noex="";
 
-if( isset($_GET['as']))
-{
-$as1="EL CLIENTE NO EXISTE";
+			if( isset($_GET['as'])){
+				$as1="EL CLIENTE NO EXISTE";
 
-}else{
-$as1="";}
+			}else{
+				$as1="";}
+		?>
+		<form action="crearservicio.php" method="post">
+			<tr>
+				<td align="center" colspan="6">Servicio Activo</td>
+			</tr>
+
+			<!--primera linea-->
+			<tr>
+				<td><h3>Nombre</td>
+				<td>
+					<br><input  id="tags" name="N_CLIENTE"  class="mayusculas" required>
+					<div nombre="nuevo">	
+						<br><?PHP echo $as1;?>
+					</div>	
+				</td>
+					
+
+				<td>
+					<h3>Soporte
+				</td>
+				<td>
+					<select class="mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+					  <option></option>
+					  <option>PRESENCIAL</option>
+					  <option>REMOTO</optcion>
+				  	</select>
+				</td>
+			  </tr>
+			  <tr>
+
+			  </tr>
+			  <tr>
 
 
-?>
-<form action="crearservicio.php" method="post">
-<tr><td align="center" colspan="6">Servicio Activo</td></tr>
+				<td><h3>Contacto</td>
 
-<!--primera linea-->
-<tr>
-<td><h3>Nombre</td>
-<td><br><input  id="tags" name="N_CLIENTE"  class="mayusculas" required>
-		<div nombre="nuevo">	<br><?PHP echo $as1;?></div>	</td>
-		
+				<td> <br><input type="text" name="CONTACTOS"  class="mayusculas" required/><br><br></td>
 
-<td><h3>Soporte</td>
-<td><select class="mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
-  <option></option>
-  <option>PRESENCIAL</option>
-  <option>REMOTO</optcion>
-  </select>
-   
-   </tr>
-   <tr>
-    </tr>
-   <tr>
+				<td><h3>Incidencia</td>
+				<td><input class="mayusculas" type="text" name="INCIDENCIA"  required/></td>
+			  <tr>
+			  	
+			  </tr>
 
-
-<td><h3>Contacto</td>
-
-<td> <br><input type="text" name="CONTACTOS"  class="mayusculas" required/><br><br></td>
-
-<td><h3>Incidencia</td>
-  <td><input class="mayusculas" type="text" name="INCIDENCIA"  required/></td>
-  <tr></tr>
-
-  <input class="mayusculas" type="hidden" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
-    <input class="mayusculas" type="hidden" name="FECHA" value="<?php echo date('Y-m-d'); ?>" />
-<input class="mayusculas" type="hidden" name="srv" value="1">
-<td  align="center" colspan="6"><input class="mayusculas" type="submit" value="insertar"/></td>
-</tr>
-</form>
-</table>
+				    <input class="mayusculas" type="hidden" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
+				    <input class="mayusculas" type="hidden" name="FECHA" value="<?php echo date('Y-m-d'); ?>" />
+					<input class="mayusculas" type="hidden" name="srv" value="1">
+				<td  align="center" colspan="6"><input class="mayusculas" type="submit" value="insertar"/></td>
+			</tr>
+		</form>
+	</table>
 	</DIV>
