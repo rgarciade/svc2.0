@@ -1,12 +1,9 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <?PHP #DATOS MODIFICAR
-
-
    $usu=$_GET['usu'];
    $fe1=$_GET['fe1'];
    $fe2=$_GET['fe2'];
-
 ?>
 <table  border=1 >
     <tr>
