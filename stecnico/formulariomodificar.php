@@ -100,11 +100,49 @@ window.open(url,"","algun parametro que desees");
 	$tex1  = $_POST['tex'];
 	$pie1  = $_POST['pie'];
 	$ser1  = $_POST['ser'];
+
+// array tecnico Y SOPORTE
+$Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+$sop = array("PRESENCIAL","REMOTO");
+
+//funciones 
+	function Reorg_arr($ori,$arr,$length){
+		
+		$contador    = 0;
+		$controlador = 0;
+		$arrfin         = array(); 
+		for ($i=0; $i < $length ; $i++) { 
+				if ($arr[$i] == $ori && $controlador == 0) {
+					$iaux = $i;
+					$i = $length;
+			}	
+
+		}
+		for ($z=0; $z < $length ; $z ++) { 
+				
+				$arrfin[$z] = $arr[$iaux] ;
+				$iaux ++;
+				if ($iaux == $length) {
+					$iaux = 0;
+				}
+		}	
+		return $arrfin;
+	};
+	function mostrar_select($arr,$name){
+						echo "<td><select name='$name' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
+									$count= 0;
+									foreach ($arr as $key => $value) {
+												option($value,$count);
+												$count++;
+									}
+						echo "		</select>
+								</td>";
+					  }
+	function option($value,$count){
+			if ($value != "") echo "<option>$value</option>";
+				elseif ($count == 0) echo "<option></option>";
+	}
 ?>
-
-
-
-
 <div class="CSSTableGenerator" >
 	<table  border=1 >
 		<tr>
@@ -112,115 +150,21 @@ window.open(url,"","algun parametro que desees");
 		  <td >CONTACTOS</td>
 		  <td >TECNICO</td>  
 		  <td >SOPORTE</td>
-		  <td >HORA_INI</td>  
-		  
-		   
+		  <td >HORA_INI</td>  	   
 		</tr>
-
-
 		<tr>
 			<form action="MODIFICARSERVICIO.php" method="post">
 
 					<td><div style="text-transform: uppercase"><input id="tags"  name="N_CLIENTE" value="<?PHP echo $cli1 ?>" class="mayusculas" required/></div></td>
 					<td><div  style="text-transform: uppercase"><input type="text" name="CONTACTOS" value="<?PHP echo $con1?>" class="mayusculas"/></div></td>
-				<!--IMPUT TECNICO-->  
 				<?php 
-
-					 if ($tec1 == 'JORGE') {
-						echo "<td><select name='N_TECNICO' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-									<option>JORGE</option> 
-									<option>DAVID</option>
-									<option>RAUL</option>
-									<option>JOSE</option>
-																			 
-									  
-									
-									</select>
-								</td>";
-					  }else{
-					       
-							 if ($tec1 == 'DAVID') {
-								ECHO "<td><select name='N_TECNICO' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-											<option>DAVID</option>
-											<option>RAUL</option>
-											<option>JOSE</option>
-																						 
-											<option>JORGE</option>   
-											
-											</select>
-									  </td>";
-								}ELSE{
-										if ($tec1 == 'RAUL') {
-													ECHO "<td><select name='N_TECNICO' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-																<option>RAUL</option>
-																<option>JOSE</option>
-																
-																<option>DAVID</option> 
-																<option>JORGE</option>   
-																
-																</select>
-														  </td>";
-										}ELSE{
-												if ($tec1 == 'JOSE') {
-													ECHO "<td><select name='N_TECNICO' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-																<option>JOSE</option>
-																<option>RAUL</option>
-																<option>DAVID</option> 
-																<option>JORGE</option>   
-																
-																</select>
-														   </td>";
-													}ELSE{
-														
-																ECHO "<td><select name='N_TECNICO' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-																		<option></option>
-																		<option>JOSE</option>
-																		<option>RAUL</option>
-																		<option>DAVID</option> 
-																		<option>JORGE</option>   
-																		</select>
-											     					  </td>";
-														}	
-											}		
-									}
-							}
-				?>  
-				<!--select soporte--> 
-				<?php 
-
-				 if ($sop1 == 'PRESENCIAL') {
-						ECHO "<td><select name='SOPORTE' value='' pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-						  
-						  <option>PRESENCIAL</option>
-						  <option>REMOTO</optcion>
-						  
-						  </select>
-						   </td>";
-				 	}ELSE{ 
-				    	if ($sop1 == 'REMOTO') {
-							ECHO "<td><select name='SOPORTE' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-									<option>REMOTO</optcion>
-									<option>PRESENCIAL</option>
-									
-									
-									</select>
-									</td>";
-				 
-								}ELSE{				
-									
-										ECHO "<td><select name='SOPORTE' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-											<option></option>
-											<option>REMOTO</optcion>
-											<option>PRESENCIAL</option>
-									
-											
-											</select>
-											</td>";
-					
-						}
-					}	
+					//mostrar tecnico				
+				$Tecnicos_fin = Reorg_arr($tec1,$Tecnicos_orig,5);
+				        mostrar_select($Tecnicos_fin,"N_TECNICO");
+					//mostrar soporte 
+				$Soporte_fin = Reorg_arr($sop1,$sop,2);
+				        mostrar_select($Soporte_fin,"SOPORTE");	
 				 ?>  
-				 
 				  <td>
 				  	<input type="TEXT" name="HORA_INICIO" value="<?PHP echo $hini1?>"/>
 				  </td>
