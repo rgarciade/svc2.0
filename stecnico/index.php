@@ -239,13 +239,13 @@
         	$a=$row [ "NUM_SERVICIO" ];
         echo "<tr>";
 
-              $cli = Element_tabla($row,"N_CLIENTE");
+              $cli  = Element_tabla($row,"N_CLIENTE");
 
-              $con = Element_tabla($row,"CONTACTOS");
+              $con  = Element_tabla($row,"CONTACTOS");
 
-              $tec = Element_tabla($row,"TECNICO");
+              $tec  = Element_tabla($row,"TECNICO");
 
-              $sop = Element_tabla($row,"SOPORTE");
+              $sop  = Element_tabla($row,"SOPORTE");
 
               $hini = Element_tabla($row,"HORA_INICIO");
 
@@ -253,11 +253,11 @@
 
               $fech = Element_tabla($row,"FECHA");
 
-              $tex= Element_tabla($row,"TEXTO");
+              $tex  = Element_tabla($row,"TEXTO");
 
-              $pie = Element_tabla($row,"PIEZAS");
+              $pie  = Element_tabla($row,"PIEZAS");
 
-              $ser = Element_tabla($row,"NUM_SERVICIO");
+              $ser  = Element_tabla($row,"NUM_SERVICIO");
 
           echo "<td>";
           ?>
