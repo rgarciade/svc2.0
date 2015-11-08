@@ -1,6 +1,9 @@
-<?php include("cabezerabusquedas.php");?>
+<?php 
+include("../funciones/comun_busquedas.php");
+include("../funciones/funciones_busquedas.php");
+include("cabezerabusquedas.php");
 
-<?php #CONEXION
+#CONEXION
 
 #Conectamos con mysqli
 $conexion = mysqli_connect("localhost","select","123456")

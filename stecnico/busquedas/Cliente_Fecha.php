@@ -1,9 +1,8 @@
-<?php include("cabezerabusquedas.php");?>
-
-
-
-    <?php #CONEXION
-    include("../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+<?php 
+include("../funciones/comun_busquedas.php");
+include("../funciones/funciones_busquedas.php");
+include("cabezerabusquedas.php"); #CONEXION
+    //se incluyen los datos para realizar la conexion a su base de datos
 
 
     #Seleccionamos la base de datos a utilizar

@@ -1,5 +1,8 @@
 <?php #CONEXION
+include("../funciones/comun_busquedas.php");
+include("../funciones/funciones_busquedas.php");
 include("cabezerabusquedas.php");
+
 #Conectamos con mysqli
 
 $conexion = mysqli_connect("localhost","select","123456")
@@ -38,61 +41,27 @@ while( $row = mysqli_fetch_array ( $consulta1 )) {
 $row [ "NUM_SERVICIO" ];
  $a=$row [ "NUM_SERVICIO" ];
 echo "<tr>";
+             $cli  = Element_tabla($row,"N_CLIENTE");
 
-echo "<td width='200' height='50'><div style='text-transform: uppercase;position:relative;width:200;height:50; overflow:auto'> ";
- echo $row [ "N_CLIENTE" ];
-    $cli=$row [ "N_CLIENTE" ];
-echo "</div></td>";
+              $con  = Element_tabla($row,"CONTACTOS");
 
-echo "<td width='200' height='50'><div style='text-transform: uppercase;position:relative;width:200;height:50; overflow:auto'> ";
- echo $row [ "CONTACTOS" ];
-     $con=$row [ "CONTACTOS" ];
-echo "</div></td>";
+              $tec  = Element_tabla($row,"TECNICO");
 
-echo "<td>";
- echo $row [ "TECNICO" ];
-      $tec=$row [ "TECNICO" ];
-echo "</td>";
+              $sop  = Element_tabla($row,"SOPORTE");
 
-echo "<td>";
- echo $row [ "SOPORTE" ];
-      $sop=$row [ "SOPORTE" ];
-echo "</td>";
+              $hini = Element_tabla($row,"HORA_INICIO");
 
-echo "<td>";
- echo $row [ "HORA_INICIO" ];
-      $hini=$row [ "HORA_INICIO" ];
-echo "</td>";
+              $hfin = Element_tabla($row,"HORA_FIN");
+
+              $fech = Element_tabla($row,"FECHA");
+
+              $tex  = Element_tabla($row,"TEXTO");
+
+              $pie  = Element_tabla($row,"PIEZAS");
+
+              $ser  = Element_tabla($row,"NUM_SERVICIO");
 
 echo "<td>";
- echo $row [ "HORA_FIN" ];
-      $hfin=$row [ "HORA_FIN" ];
-echo "</td>";
-echo "<td>";
- echo $row [ "FECHA" ];
-      $fech=$row [ "FECHA" ];
-echo "</td>";
-
-echo "<td width='150' height='10'> <div style='text-transform: uppercase;position:relative;width:150;height:60; overflow:auto'>";
- echo $row [ "TEXTO" ];
-      $tex=$row [ "TEXTO" ];
-echo "</div></td>";
-
-echo "<td width='200' height='10'><div style='text-transform: uppercase;position:relative;width:150;height:50; overflow:auto'> ";
- echo $row [ "PIEZAS" ];
-      $pie=$row [ "PIEZAS" ];
-echo "</div></td>";
-
-echo "<td>";
- echo $row [ "NUM_SERVICIO" ];
-	  $ser=$row [ "NUM_SERVICIO" ];
-
-echo "</td>";
-echo "<td>";
-
-
-
-
 
 ?>
 
