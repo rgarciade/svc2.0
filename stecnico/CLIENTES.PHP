@@ -1,124 +1,6 @@
-
 <html>
-<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title></title>
-		<link rel="stylesheet" href="">
-
-
-
-		<div name="comun">
-		<!--refresco cada x tiempo-->
-		<meta http-equiv="refresh" content="60">
-		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-		<script language="JavaScript" src="js/jquery-1.5.1.min.js"></script>
-		<script language="JavaScript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
-		<link type="text/css" href="indexcss.css" rel="stylesheet" />
-		<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
-
-		<script language="javascript" src="js/jquery.js"></script>
-		<STYLE>
-		body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -10px }
-		</STYLE>
-
-
-
-		<div name="formula predictiva">
-		<?php #busqueda predictiva
-		include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
-
-		$con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
-		$query = mysqli_query($conexion,$con);
-			?>
-		    
-		    <script type="text/javascript">
-			function abrirVentana(url) {
-
-		    window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
-		}
-			$(function() {
-				
-				<?php
-				
-				while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
-		      $elementos[]= '"'.$row['cliente'].'"';
-			  
-		}
-		$arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
-
-				?>	
-				var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
-						
-				$( "#tags" ).autocomplete({
-					source: availableTags
-				});
-				
-			});
-
-			</script>
-		</div>
-		<!--cerrar formula predictiva-->
-
-		<?php
-		## zona horaria por defecto
-		date_default_timezone_set("Europe/Madrid");
-
-		?>
-		<!--no enviar formulario con enter-->
-		<script language="javascript">
-		$(document).ready(function() {
-
-		  $('form').keypress(function(e){   
-		    if(e == 13){
-		      return false;
-		    }
-		  });
-
-		  $('input').keypress(function(e){
-		    if(e.which == 13){
-		      return false;
-		    }
-		  });
-
-		});
-		<!--enviar formulario-->
-				function enviar_formulario(){
-					document.formulario1.submit()
-				}
-			
-		</script>
-
-		<div name="cabecera">
-		<!--PARTE SUPERIOR-->
-
-		<?PHP
-		#Conectamos con MySQL
-					$conexion = mysqli_connect("localhost","select","123456")
-						or die ("Fallo en el establecimiento de la conexión");
-
-
-		#Seleccionamos la base de datos a utilizar
-					mysqli_select_db($conexion,"microtex")
-					or die("Error en la selección de la base de datos");
-					
-		 #comprovamos servicios activos actuales
-		$result1 = mysqli_query ($conexion,"SELECT * FROM servicios where Estado is not NULL")
-					or die("Error en la consulta SQL");
-		$srva=0;
-
-				while( $row = mysqli_fetch_array ( $result1 )) {
-		$row [ "NUM_SERVICIO" ];
-		 $srva=$srva+1;
-				} 
-				if ($srva > 7){
-					$srva="7+";
-				}	
-			
-		 ?>
- </head>
- <body>
-		
+<?php include("funciones/comun.php");
+      include("funciones/funciones.php");?>
 	<div id='cssmenu'>
 	<ul>
 	   <li ><a href='index.PHP'>	<span>STECNICO</span></a></li>
@@ -147,10 +29,6 @@
 	$mai="";
 
 	?>
-
-
-
-
 
 	<?php #CONEXION Y CONDICIONES
 
