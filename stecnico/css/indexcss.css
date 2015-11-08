@@ -1,5 +1,3 @@
-
-
 .azul {
 	-moz-box-shadow:inset 22px 4px 50px -6px #fceaca;
 	-webkit-box-shadow:inset 22px 4px 50px -6px #fceaca;
@@ -215,11 +213,11 @@
   width: auto;
   zoom: 1;
   height: 69px;
-  background: url(images/bottom-bg.png) repeat-x center bottom;
+  background: url(../images/bottom-bg.png) repeat-x center bottom;
   border-radius: 2px;
 }
 #cssmenu ul {
-  background: url(images/nav-bg.png) repeat-x 0px 4px;
+  background: url(../images/nav-bg.png) repeat-x 0px 4px;
   height: 69px;
 }
 #cssmenu ul li {
@@ -244,7 +242,7 @@
 }
 #cssmenu ul li a:hover,
 #cssmenu ul li.active a {
-  background: url(images/color.png) center bottom;
+  background: url(../images/color.png) center bottom;
   display: block;
   height: 37px;
   margin-top: 0px;
