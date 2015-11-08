@@ -41,55 +41,26 @@ $row [ "NUM_SERVICIO" ];
  $a=$row [ "NUM_SERVICIO" ];
 echo "<tr>";
 
-echo "<td width='200' height='50'><div style='text-transform: uppercase;position:relative;width:200;height:50; overflow:auto'> ";
- echo $row [ "N_CLIENTE" ];
-    $cli=$row [ "N_CLIENTE" ];
-echo "</div></td>";
+              $cli  = Element_tabla($row,"N_CLIENTE");
 
-echo "<td width='200' height='50'><div style='text-transform: uppercase;position:relative;width:200;height:50; overflow:auto'> ";
- echo $row [ "CONTACTOS" ];
-     $con=$row [ "CONTACTOS" ];
-echo "</div></td>";
+              $con  = Element_tabla($row,"CONTACTOS");
 
-echo "<td>";
- echo $row [ "TECNICO" ];
-      $tec=$row [ "TECNICO" ];
-echo "</td>";
+              $tec  = Element_tabla($row,"TECNICO");
 
-echo "<td>";
- echo $row [ "SOPORTE" ];
-      $sop=$row [ "SOPORTE" ];
-echo "</td>";
+              $sop  = Element_tabla($row,"SOPORTE");
 
-echo "<td>";
- echo $row [ "HORA_INICIO" ];
-      $hini=$row [ "HORA_INICIO" ];
-echo "</td>";
+              $hini = Element_tabla($row,"HORA_INICIO");
 
-echo "<td>";
- echo $row [ "HORA_FIN" ];
-      $hfin=$row [ "HORA_FIN" ];
-echo "</td>";
-echo "<td>";
- echo $row [ "FECHA" ];
-      $fech=$row [ "FECHA" ];
-echo "</td>";
+              $hfin = Element_tabla($row,"HORA_FIN");
 
-echo "<td width='150' height='10'> <div style='text-transform: uppercase;position:relative;width:150;height:60; overflow:auto'>";
- echo $row [ "TEXTO" ];
-      $tex=$row [ "TEXTO" ];
-echo "</div></td>";
+              $fech = Element_tabla($row,"FECHA");
 
-echo "<td width='200' height='10'><div style='text-transform: uppercase;position:relative;width:150;height:50; overflow:auto'> ";
- echo $row [ "PIEZAS" ];
-      $pie=$row [ "PIEZAS" ];
-echo "</div></td>";
+              $tex  = Element_tabla($row,"TEXTO");
 
-echo "<td>";
- echo $row [ "NUM_SERVICIO" ];
-	  $ser=$row [ "NUM_SERVICIO" ];
+              $pie  = Element_tabla($row,"PIEZAS");
 
-echo "</td>";
+              $ser  = Element_tabla($row,"NUM_SERVICIO");
+
 echo "<td>";
 
 
