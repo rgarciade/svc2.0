@@ -1,15 +1,7 @@
 <?php include("funciones/comun.php");
-      include("funciones/funciones.php");?>
-<div id='cssmenu'>
-<ul>
-   <li ><a href='index.PHP'><span>STECNICO</span></a></li>
-   <li ><a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>
-   <li class='last'><a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>
-   <li class='vol'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-   <li class='vol'><a  href='/servicios2.0'><span>MICRO-TEX</span></a></li>
-</ul>
-</div>
+      include("funciones/funciones.php");     
+       Menu("caca",$srva);
+?>
 
 </div>
 </div>

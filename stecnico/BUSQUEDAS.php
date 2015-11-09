@@ -1,19 +1,9 @@
 <?php include("funciones/comun.php");
-      include("funciones/funciones.php");?>
-    <div id='cssmenu'>
-      <ul>
-           <li><a href='index.PHP'><span>STECNICO</span></a></li>
-           <li><a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>
-           <li class='active'><a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>
-           
-          
-           <li class='vol'><a  href='/servicios2.0'><span>MICRO-TEX</span></a></li>
-           <li class='vol'><a  href='#' onClick="abrirVentana('CREARSERVACTIVO.PHP')"><span>NUEVO SERV ACTIVO</span></a></li>
+      include("funciones/funciones.php");
+      Menu("busquedas",$srva);
+?>
 
-         <a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/<?PHP echo $srva?>.png' width='120px' height='50px'></a>
 
-      </ul>
-    </div>
   <!--cerrar cssmenu-->
   </div>
   <!--cerrar cabecera-->
@@ -31,7 +21,7 @@
             <td colspan="5" rowspan="3">
     	         <form action="FORMULASBUSQUEDAS.php" method="post" name="formulario1">
                       	<?PHP  if( !isset($_GET['as'])){ 
-                                  echo "<img src='images/buscar.jpg' width='10%' height='40%'>";
+                                          echo "<img src='images/buscar.jpg' width='10%' height='40%'>";
                       	           }else{
                                           echo "<img src='images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'><H2>NO SE ENCONTRARON SERVICIOS</H2></div>";
                                         }?>

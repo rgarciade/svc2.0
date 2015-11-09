@@ -1,6 +1,5 @@
 <div name="comun">
   <!--refresco cada x tiempo-->
-  <meta http-equiv="refresh" content="60">
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <script language="JavaScript" src="../js/jquery-1.5.1.min.js"></script>
   <script language="JavaScript" src="../js/jquery-ui-1.8.13.custom.min.js"></script>

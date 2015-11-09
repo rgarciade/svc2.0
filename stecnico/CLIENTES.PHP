@@ -1,20 +1,8 @@
 <html>
 <?php include("funciones/comun.php");
-      include("funciones/funciones.php");?>
-	<div id='cssmenu'>
-	<ul>
-	   <li ><a href='index.PHP'>	<span>STECNICO</span></a></li>
-	   <li CLASS='ACTIVE'><a href='CLIENTES.PHP'>	<span>CLIENTE</span></a></li>
-	   <li class='last'><a href='BUSQUEDAS.PHP'>	<span>BUSQUEDAS</span></a></li>
-	   
-	  
-	   <li class='vol'><a  href='/servicios2.0'><span>MICRO-TEX</span></a></li>
-	   <li class='vol'><a  href='#' onClick="abrirVentana('CREARSERVACTIVO.PHP')"><span>NUEVO SERV ACTIVO</span></a></li>
-
-	 <a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/<?PHP echo $srva?>.png' width='120px' height='50px'></a>
-
-	</ul>
-	</div>
+      include("funciones/funciones.php");     
+      Menu("clientes",$srva);
+?>
 	<!--cerrar cssmenu-->
 	</div>
 	<!--cerrar cabecera-->
