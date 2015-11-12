@@ -4,7 +4,6 @@ $cliente = "select";//nombre del cliente
 $pwd     = "123456";//contraseña de mysql
 $db      = "microtex";//nombre de la base de datos, en nuestro caso se llama autocompleta
 
-
 $conexion = mysqli_connect($server,$cliente,$pwd);
 
 	if($conexion){
@@ -15,9 +14,7 @@ $conexion = mysqli_connect($server,$cliente,$pwd);
 
 		//echo "No hay Conexion";
 
-
 }
-
 
 $base = mysqli_select_db($conexion,$db);
 
@@ -28,9 +25,6 @@ $base = mysqli_select_db($conexion,$db);
 	}else{
 
 		//echo "Error en la base de datos";
-
-
 }
-
 
 ?>

@@ -4,13 +4,18 @@
       <?php #busqueda predictiva
       include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
+        //arrays
+
+      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+  $arr_sop = array("PRESENCIAL","REMOTO");  
+
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
       $query = mysqli_query($conexion,$con);
       	?>
           
           <script type="text/javascript">
-      	function abrirVentana(url) {
-
+        function abrirVentana(url) {
+           console.log("caca"); 
           window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
       	
       }
@@ -142,9 +147,10 @@
          activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
          activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
          activ($page,"servicios2.0");   echo "<a  href='/servicios2.0'><span>MICRO-TEX</span></a></li>";
-         activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana('CREARSERVACTIVO.PHP')'><span>NUEVO SERV ACTIVO</span></a></li>";
-    echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva;  echo ".png' width='120px' height='50px'></a>
-      </ul>";
+         activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
+    echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva; echo ".png' width='120px' height='50px'></a></ul>";
+
+    
 }
  function activ($page,$href){
   if ($page == $href) {

@@ -85,12 +85,7 @@
 			#Cerramos la conexión con la base de datos
 			mysqli_close($conexion);
 	}
-	?>
-
-
-
-
-
+?>
 		<div class="CSSTableGenerator" >
 
 

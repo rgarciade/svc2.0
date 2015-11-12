@@ -1,6 +1,7 @@
 <?php include("funciones/comun.php");
       include("funciones/funciones.php");     
        Menu("caca",$srva);
+
 ?>
 
 </div>
@@ -21,8 +22,7 @@
 	$ser1  = $_POST['ser'];
 
 // array tecnico Y SOPORTE
-$Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
-$sop = array("PRESENCIAL","REMOTO");
+
 
 
 ?>
@@ -41,12 +41,10 @@ $sop = array("PRESENCIAL","REMOTO");
 					<td><div style="text-transform: uppercase"><input id="tags"  name="N_CLIENTE" value="<?PHP echo $cli1 ?>" class="mayusculas" required/></div></td>
 					<td><div  style="text-transform: uppercase"><input type="text" name="CONTACTOS" value="<?PHP echo $con1?>" class="mayusculas"/></div></td>
 				<?php 
-					//mostrar tecnico				
-				$Tecnicos_fin = Reorg_arr($tec1,$Tecnicos_orig,5);
-				        mostrar_select($Tecnicos_fin,"N_TECNICO");
+					//mostrar tecnico
+				        mostrar_select(Reorg_arr($tec1,$arr_Tecnicos_orig,5),"N_TECNICO");
 					//mostrar soporte 
-				$Soporte_fin = Reorg_arr($sop1,$sop,2);
-				        mostrar_select($Soporte_fin,"SOPORTE");	
+				        mostrar_select(Reorg_arr($sop1,$arr_sop,2),"SOPORTE");	
 				 ?>  
 				  <td>
 				  	<input type="TEXT" name="HORA_INICIO" value="<?PHP echo $hini1?>"/>

@@ -74,52 +74,16 @@ $row [ "NUM_SERVICIO" ];
 
  <td><div style="text-transform: uppercase"><input id="tags"  name="N_CLIENTE" value="<?PHP echo $cli ?>" class="mayusculas" required/></div></td>
  <td><div  style="text-transform: uppercase"><input type="text" name="CONTACTOS" value="<?PHP echo $con?>" class="mayusculas"/></div></td>
-<!--IMPUT TECNICO-->  
 
 
- <td><select name='N_TECNICO' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-													<option></option>
-													<option>JORGE</option> 
-													<option>DAVID</option>
-													<option>RAUL</option>
-													<option>JOSE</option>
-																							 
-													  
-													
-													</select>
-													</td>
-<!--select soporte--> 
+
+
+
 <?php 
-
- if ($sop == 'PRESENCIAL') {
-ECHO "<td><select name='SOPORTE' value='' pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-  
-  <option>PRESENCIAL</option>
-  <option>REMOTO</optcion>
-  
-  </select>
-   </td>";
- }ELSE{    if ($sop == 'REMOTO') {
-			ECHO "<td><select name='SOPORTE' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-					<option>REMOTO</optcion>
-					<option>PRESENCIAL</option>
-					
-					
-					</select>
-					</td>";
- 
-	}ELSE{				
-					
-						ECHO "<td><select name='SOPORTE' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-							<option></option>
-							<option>REMOTO</optcion>
-							<option>PRESENCIAL</option>
-					
-							
-							</select>
-							</td>";
-	
-		}}	
+//<!--IMPUT TECNICO-->  
+	mostrar_select(Reorg_arr($tec,$arr_Tecnicos_orig,5),"N_TECNICO");
+//<!--select soporte--> 
+ 	mostrar_select(Reorg_arr($sop,$arr_sop,2),"SOPORTE");	
  ?>  
  
   <td><input type="TEXT" name="HORA_INICIO" value="<?PHP echo $hini?>"/></td>
