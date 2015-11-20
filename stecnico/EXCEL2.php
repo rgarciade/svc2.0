@@ -1,9 +1,14 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
 <?PHP #DATOS MODIFICAR
+
+
    $usu=$_GET['usu'];
    $fe1=$_GET['fe1'];
    $fe2=$_GET['fe2'];
+
+header('Content-Type: application/vnd.ms-excel');
+header("Content-Disposition: attachment;filename=\"$usu\"\"$fe1\"\"$fe2\"\".xls");
+header('Cache-Control: max-age=0');
 ?>
 <table  border=1 >
     <tr>
@@ -19,24 +24,13 @@
       <td >N_SERVICIO</td>
         
     </tr>
-
-
     <?php
      /* Ejemplo 1 generando excel desde mysql con PHP
         @Autor: Carlos Hernan Aguilar Hurtado
      */
-
-
-     
-      #CONEXION
-
-     
-      
     #Conectamos con MySQL
     $conexion = mysqli_connect("localhost","select","123456")
     or die ("Fallo en el establecimiento de la conexión");
-
-
     #Seleccionamos la base de datos a utilizar
     			mysqli_select_db($conexion,"microtex")
     			or die("Error en la selección de la base de datos");
@@ -121,13 +115,7 @@
 ?>
     </tr>
 </table>
-
-
 <?php
-header('Content-Type: application/vnd.ms-excel');
-header("Content-Disposition: attachment;filename=\"$usu\"\"$fe1\"\"$fe2\"\".xls");
-header('Cache-Control: max-age=0');
 exit;
 mysql_close ($conexion);
-
 ?>

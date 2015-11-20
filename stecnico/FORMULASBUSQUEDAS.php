@@ -56,7 +56,6 @@ switch ($acc) {
   case "IMPRIMIR":  
       header("location:./busquedas/Imprimir.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
-
   case "TODOS":
       header("location:./busquedas/Todos.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
