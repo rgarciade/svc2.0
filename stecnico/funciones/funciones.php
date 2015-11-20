@@ -15,8 +15,7 @@
           
           <script type="text/javascript">
         function abrirVentana(url) {
-           console.log("caca"); 
-          window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
+      	  window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
       	
       }
       	$(function() {
