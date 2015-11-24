@@ -1,16 +1,6 @@
 <?php 
 include("cabezerabusquedas.php");
-#CONEXION
-
-#Conectamos con mysqli
-$conexion = mysqli_connect("localhost","select","123456")
-or die ("Fallo en el establecimiento de la conexión");
-
-
-#Seleccionamos la base de datos a utilizar
-mysqli_select_db($conexion,"microtex")
-or die("Error en la selección de la base de datos");
-
+include("../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
 # ################################### #
 

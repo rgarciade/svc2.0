@@ -1,6 +1,7 @@
 <html>
-<?php include("funciones/comun.php");
-      include("funciones/funciones.php");     
+	<?php
+		include("funciones/comun.php");
+		include("funciones/funciones.php");     
       Menu("clientes",$srva);
 ?>
 	<!--cerrar cssmenu-->
@@ -45,15 +46,6 @@
 	if( isset($_POST['N_CLIENTE'])){
 			
 			$nom=$_POST['N_CLIENTE'];
-
-			#Conectamos con mysqli
-			include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
-
-
-			#Seleccionamos la base de datos a utilizar
-			mysqli_select_db($conexion,"microtex")
-			or die("Error en la selección de la base de datos");
-
 
 									# ################################### #
 									##############################

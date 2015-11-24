@@ -63,19 +63,7 @@ $(document).ready(function() {
 
 <div name="cabecera">
 <!--PARTE SUPERIOR-->
-<?PHP
-#Conectamos con MySQL
-			$conexion = mysqli_connect("localhost","select","123456")
-				or die ("Fallo en el establecimiento de la conexión");
 
-
-#Seleccionamos la base de datos a utilizar
-			mysqli_select_db($conexion,"microtex")
-			or die("Error en la selección de la base de datos");
-			
-
-			
-?>
  <script language="JavaScript">
 function newPage(url){
 	window.open(url,"","algun parametro que desees");

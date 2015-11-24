@@ -2,17 +2,7 @@
 include("../funciones/comun_busquedas.php");
 include("../funciones/funciones_busquedas.php");
 include("cabezerabusquedas.php"); #CONEXION
-    //se incluyen los datos para realizar la conexion a su base de datos
-
-
-    #Seleccionamos la base de datos a utilizar
-    mysqli_select_db($conexion,"microtex")
-    or die("Error en la selección de la base de datos");
-
-
-    # ################################### #
-    ?>
-    <?php #CONSULTA		
+#CONSULTA		
     						##############################
     						#BUSCAR RANGO SQL####
     						#############################

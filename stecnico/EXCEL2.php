@@ -1,5 +1,6 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?PHP #DATOS MODIFICAR
+  include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
 
    $usu=$_GET['usu'];
@@ -28,13 +29,6 @@ header('Cache-Control: max-age=0');
      /* Ejemplo 1 generando excel desde mysql con PHP
         @Autor: Carlos Hernan Aguilar Hurtado
      */
-    #Conectamos con MySQL
-    $conexion = mysqli_connect("localhost","select","123456")
-    or die ("Fallo en el establecimiento de la conexión");
-    #Seleccionamos la base de datos a utilizar
-    			mysqli_select_db($conexion,"microtex")
-    			or die("Error en la selección de la base de datos");
-
     $sql = "SELECT * FROM `servicios` WHERE N_CLIENTE='$usu'
      AND FECHA <= '$fe2' AND FECHA>='$fe1' ORDER BY FECHA DESC,HORA_FIN DESC";
 

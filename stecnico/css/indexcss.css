@@ -273,8 +273,10 @@ input:invalid {
   input:valid {
     border: 1px solid green;
   }
-input.mayusculas{text-transform:uppercase;}
-style>
+input.mayusculas{
+	text-transform:uppercase;
+}
+
 input:invalid {
     border: 1px solid red;
   }

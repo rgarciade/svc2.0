@@ -1,8 +1,5 @@
 <html >
 <?PHP #DATOS MODIFICAR
-
-
-
  $cli 	=$_POST['N_CLIENTE'];
  $con 	=$_POST['CONTACTOS'];
  $tec 	=$_POST['N_TECNICO'];
@@ -19,11 +16,6 @@
 
 <?php #CONEXION
 include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
-
-
-#Seleccionamos la base de datos a utilizar
-mysqli_select_db($conexion,"microtex")
-or die("Error en la selección de la base de datos");
 
 # ################################### #
 ?>

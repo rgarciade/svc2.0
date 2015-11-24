@@ -1,6 +1,6 @@
 <?php include("funciones/comun.php");
       include("funciones/funciones.php");     
-       Menu("caca",$srva);
+       Menu("",$srva);
 
 ?>
 
