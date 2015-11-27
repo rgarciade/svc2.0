@@ -133,26 +133,4 @@
         elseif ($count == 0) echo "<option></option>";
   }
 
-if(isset($_COOKIE['ms'])){
- session_id($_COOKIE['ms']);
-}
-      ###
-      ##  acontinuacion comprueva si existe la sesion
-      ### 
- session_start();
- if(isset($_SESSION['usuario']) and $_SESSION['estado'] == 'valido'  ) 
-{ 
-       // Lo dejas entrar a la pagina 
-} 
-else 
-{   
-      ###
-      ##  si la sesion no existe se redirige a la pagina login
-      ### 
-
-       // Usuario que no se ha logueado 
-
-      header('location:../index.php');     
-} 
-
        ?>
