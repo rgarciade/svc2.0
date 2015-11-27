@@ -8,5 +8,5 @@
 
 
   <STYLE>
-  body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -10px }
+  body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -3px }
   </STYLE>
