@@ -99,7 +99,7 @@
 								<form action="CLIENTES.php" method="post" name="formulario1">
 									<?PHP  
 									if ($as2=="ERROR2"){ 
-										echo "<img src='error2.jpg' width='15%' height='5%'> <div style='color:#00FF00;'><P>EL CLIENTE NO EXISTE</P></div>";
+										echo "<img src='images/ERRORES/error2.jpg' width='15%' height='5%'> <div style='color:#00FF00;'><P>EL CLIENTE NO EXISTE</P></div>";
 									}?>
 								</BR>
 								<h3><b>BUSCAR CLIENTE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></h3>
