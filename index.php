@@ -19,7 +19,7 @@ $log="";
 
   <meta charset="UTF-8">
 
-  <title>CodePen - Login Form</title>
+  <title>Servicios2.0- Login</title>
 
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 

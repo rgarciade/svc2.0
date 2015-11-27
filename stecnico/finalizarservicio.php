@@ -3,7 +3,7 @@
 <body>
 
 	<?PHP
-
+include("funciones/funciones.php");
 		$NUM_SER=$_POST['NUM_SERVICIO'];
 		$TEXTO=$_POST['TEXTO'];
 		$N_TECNICO=$_POST['N_TECNICO'];

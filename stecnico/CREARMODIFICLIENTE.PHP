@@ -1,4 +1,6 @@
-<?PHP #DATOS MODIFICAR
+<?PHP
+include("funciones/funciones.php");
+ #DATOS MODIFICAR
 #RECOJE EL VALOR ENVIAR DE CLIENTE
  	
  	$usu=$_POST['N_CLIENTE'];

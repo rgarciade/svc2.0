@@ -3,6 +3,9 @@
 		<body>
 
 		<?PHP
+
+include("funciones/funciones.php");
+
 		$cliente2=$_POST['N_CLIENTE'];
 		$contactos2=$_POST['CONTACTOS'];
 

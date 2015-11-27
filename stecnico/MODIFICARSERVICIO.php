@@ -1,5 +1,7 @@
 <html >
-<?PHP #DATOS MODIFICAR
+<?PHP 
+include("funciones/funciones.php");
+#DATOS MODIFICAR
  $cli 	=$_POST['N_CLIENTE'];
  $con 	=$_POST['CONTACTOS'];
  $tec 	=$_POST['N_TECNICO'];
