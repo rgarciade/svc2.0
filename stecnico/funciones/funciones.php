@@ -145,11 +145,11 @@
          activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
          activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
          activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
-         activ($page,"servicios2.0");   echo "<a  href='/servicios2.0'><span>MICRO-TEX</span></a></li>";
+         activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/menu.html'><span>MICRO-TEX</span></a></li>";
          activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
+        activ($page,"servicios2.0");   echo "<a  href='funciones/destruir.php'><span>cerrar sesion</span></a></li>";   
     echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva; echo ".png' width='120px' height='50px'></a></ul>";
-
-    
+         
 }
  function activ($page,$href){
   if ($page == $href) {
@@ -161,6 +161,26 @@
   
 }
 
+if(isset($_COOKIE['ms'])){
+ session_id($_COOKIE['ms']);
+}
+      ###
+      ##  acontinuacion comprueva si existe la sesion
+      ### 
+ session_start();
+ if(isset($_SESSION['usuario']) and $_SESSION['estado'] == 'valido'  ) 
+{ 
+       // Lo dejas entrar a la pagina 
+} 
+else 
+{   
+      ###
+      ##  si la sesion no existe se redirige a la pagina login
+      ### 
 
+       // Usuario que no se ha logueado 
+
+      header('location:../index.php');     
+} 
 
        ?>
