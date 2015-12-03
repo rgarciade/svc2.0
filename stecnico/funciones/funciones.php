@@ -135,7 +135,7 @@
          activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
          activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
          activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
-         activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/menu.html'><span>MICRO-TEX</span></a></li>";
+        // activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/'><span>MICRO-TEX</span></a></li>";
          activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
          activ($page,"servicios2.0");   echo "<a  href='funciones/destruir.php'><span>cerrar sesion</span></a></li>";   
     echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva; echo ".png' width='120px' height='50px'></a></ul>";
