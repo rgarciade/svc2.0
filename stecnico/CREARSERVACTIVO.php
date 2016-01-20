@@ -5,75 +5,13 @@
 <link type="text/css" href="css/indexcss.css" rel="stylesheet" />
 <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
 
+
 <script language="javascript" src="js/jquery.js"></script>
 
-<div name="formula predictiva">
-<?php #busqueda predictiva
-include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
-
-$con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
-$query = mysqli_query ($conexion,$con);
-	?>
-    <script>
-	$(function() {
-		<?php
-				while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
-      $elementos[]= '"'.$row['cliente'].'"';
-	  
-}
-$arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
-
-		?>	
-		var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
-				
-		$( "#tags" ).autocomplete({
-			source: availableTags
-		});
-		
-	});
-	
-	
-	
-	</script>
-</div>
-
 <?php
-date_default_timezone_set("Europe/Madrid");
+include("funciones/funciones.php");
 ?>
-<!--no enviar formulario con enter-->
-<script language="javascript">
-$(document).ready(function() {
 
-  $('form').keypress(function(e){   
-    if(e == 13){
-      return false;
-    }
-  });
-
-  $('input').keypress(function(e){
-    if(e.which == 13){
-      return false;
-    }
-  });
-
-});
-</script>
-
-
-
-<div name="cabecera">
-<!--PARTE SUPERIOR-->
-
- <script language="JavaScript">
-function newPage(url){
-	window.open(url,"","algun parametro que desees");
-}
-</script>
-
-
-
-</div>
-</div>
 
 <div class="CSSTableGenerator1" >
 	<table style="width: 785px">

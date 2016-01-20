@@ -1,8 +1,6 @@
- <script language="javascript" src="js/jquery.js"></script>
-
-  <div name="formula predictiva">
+<div name="formula predictiva">
       <?php 
-      #busqueda predictiva
+   #busqueda predictiva
       include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
@@ -12,31 +10,31 @@
 
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
       $query = mysqli_query($conexion,$con);
-      	?>
+        ?>
           
           <script type="text/javascript">
                 function abrirVentana(url) {
-              	  window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
-              	
+                  window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
+                
                 }
-          	     $(function() {
-          		
-              	<?php
-              		
-              		while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
+                 $(function() {
+              
+                <?php
+                  
+                  while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
                     $elementos[]= '"'.$row['cliente'].'"';
-              	  
+                  
                   }
                   $arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
 
-            		?>	
-              		var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
-              				
-              		$( "#tags" ).autocomplete({
-              			source: availableTags
-              		});
-              		
-              	});
+                ?>  
+                  var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
+                      
+                  $( "#tags" ).autocomplete({
+                    source: availableTags
+                  });
+                  
+                });
           </script>
   </div>
   <!--cerrar formula predictiva-->
@@ -130,15 +128,145 @@
  function Menu($page,$srva){
 
   
-    echo  "<div id='cssmenu'>
-      <ul>";
+
+
+
+
+    echo  "<nav class='navbar navbar-default navbar-static-top'>
+              <div id='container'>
+                <ul class='nav navbar-nav'>";
          activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
          activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
          activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
-        // activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/'><span>MICRO-TEX</span></a></li>";
-         activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
-         activ($page,"servicios2.0");   echo "<a  href='funciones/destruir.php'><span>cerrar sesion</span></a></li>";   
-    echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva; echo ".png' width='120px' height='50px'></a></ul>";
+            // activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/'><span>MICRO-TEX</span></a></li>";
+        //activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
+          echo"<li><a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
+
+  
+       echo"  </ul>
+
+                <ul class='nav navbar-nav navbar-right'>
+                     <li><a  href='funciones/destruir.php'><span>cerrar sesion</span></a></li>
+                    <li>
+                      <a href='SERVICIOSACTIVOS.php'>
+                       
+                          Servicios activos <span class='badge'>$srva</span>
+                       
+                      </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+
+            ";
+ 
+    include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+
+        //arrays
+
+      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+      $arr_sop = array("PRESENCIAL","REMOTO");  
+
+      $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
+      $query = mysqli_query($conexion,$con);
+
+     
+?>
+
+   <script type="text/javascript">
+                function abrirVentana(url) {
+                  window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
+                
+                }
+                 $(function() {
+              
+                <?php
+                  
+                  while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
+                    $elementos[]= '"'.$row['cliente'].'"';
+                  
+                  }
+                  $arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
+
+                ?>  
+                  var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
+                      
+                  $( "#tags1" ).autocomplete({
+                    source: availableTags
+                  });
+                  
+                });
+          </script>
+
+
+
+<!--<a href="#modal1">DESLIZAaaaR</a>-->
+  <div id="modal1" class="modalmask">
+      <div class="modalbox movedown">
+          <a href="#close" title="Close" class="close">X</a>
+
+
+<div >
+<a href='#close' title='Close' class='close'>X</a>
+  <table style='width:100%'>
+    
+    <form action='crearservicio.php' method='post'>
+      <tr>
+        <td align='center' colspan='6'>Servicio Activo</td>
+      </tr>
+
+      <!--primera linea-->
+      <tr>
+        <td><h3>Nombre</td>
+        <td>
+          <br><input  id='tags1' name='N_CLIENTE'  class='mayusculas' required>
+          <div nombre='nuevo'>  
+            <br>
+          </div>  
+        </td>
+          
+
+        <td>
+          <h3>Soporte
+        </td>
+        <td>
+          <select class='mayusculas' name='SOPORTE'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
+            <option></option>
+            <option>PRESENCIAL</option>
+            <option>REMOTO</optcion>
+            </select>
+        </td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+
+        <td><h3>Contacto</td>
+
+        <td> <br><input type='text' name='CONTACTOS'  class='mayusculas' required/><br><br></td>
+
+        <td><h3>Incidencia</td>
+        <td><input class='mayusculas' type='text' name='INCIDENCIA'  required/></td>
+        <tr>
+          
+        </tr>
+
+            <input class='mayusculas' type='hidden' name='HORA_INICIO' value='<?php echo date('H:i');?> '/>
+            <input class='mayusculas' type='hidden' name='FECHA' value=' <?php echo date('Y-m-d');?> ' />
+          <input class='mayusculas' type='hidden' name='srv' value='1'>
+        <td  align='center' colspan='6'><input class='mayusculas' type='submit' value='insertar'/></td>
+      </tr>
+    </form>
+  </table>
+  </DIV>
+echo date("H:i"); 
+<?php
+
+
+    //echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva; echo ".png' width='120px' height='50px'></a></ul>";
          
 }
  function activ($page,$href){
@@ -172,5 +300,77 @@ else
 
       header('location:../index.php');     
 } 
+
+
+// construccion del modal de sercicios activos
+/*function modal(){  
+    
+      $noex='';
+
+      if( isset($_GET['as'])){
+        $as1='EL CLIENTE NO EXISTE';
+
+      }else{
+        $as1='';}
+
+echo "<div >
+<a href='#close' title='Close' class='close'>X</a>
+  <table style='width:100%'>
+    
+    <form action='crearservicio.php' method='post'>
+      <tr>
+        <td align='center' colspan='6'>Servicio Activo</td>
+      </tr>
+
+      <!--primera linea-->
+      <tr>
+        <td><h3>Nombre</td>
+        <td>
+          <br><input  id='tags' name='N_CLIENTE'  class='mayusculas' required>
+          <div nombre='nuevo'>  
+            <br><?PHP echo $as1;?>
+          </div>  
+        </td>
+          
+
+        <td>
+          <h3>Soporte
+        </td>
+        <td>
+          <select class='mayusculas' name='SOPORTE'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
+            <option></option>
+            <option>PRESENCIAL</option>
+            <option>REMOTO</optcion>
+            </select>
+        </td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+
+        <td><h3>Contacto</td>
+
+        <td> <br><input type='text' name='CONTACTOS'  class='mayusculas' required/><br><br></td>
+
+        <td><h3>Incidencia</td>
+        <td><input class='mayusculas' type='text' name='INCIDENCIA'  required/></td>
+        <tr>
+          
+        </tr>
+
+            <input class='mayusculas' type='hidden' name='HORA_INICIO' value='echo date('H:i'); '/>
+            <input class='mayusculas' type='hidden' name='FECHA' value=' echo date('Y-m-d'); ' />
+          <input class='mayusculas' type='hidden' name='srv' value='1'>
+        <td  align='center' colspan='6'><input class='mayusculas' type='submit' value='insertar'/></td>
+      </tr>
+    </form>
+  </table>
+  </DIV>";
+};*/
+
+
+
 
        ?>

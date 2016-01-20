@@ -4,7 +4,45 @@
       include("funciones/funciones.php");
       Menu("index",$srva);
 ?>
-      
+<div name="formula predictiva">
+      <?php 
+   #busqueda predictiva
+      include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+
+        //arrays
+
+      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+      $arr_sop = array("PRESENCIAL","REMOTO");  
+
+      $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
+      $query = mysqli_query($conexion,$con);
+        ?>
+          
+          <script type="text/javascript">
+                function abrirVentana(url) {
+                  window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
+                
+                }
+                 $(function() {
+              
+                <?php
+                  
+                  while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
+                    $elementos[]= '"'.$row['cliente'].'"';
+                  
+                  }
+                  $arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
+
+                ?>  
+                  var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
+                      
+                  $( "#tags" ).autocomplete({
+                    source: availableTags
+                  });
+                  
+                });
+          </script>
+  </div>
     <!--cerrar cssmenu-->
   </div>
   <!--cerrar cabecera-->
@@ -105,7 +143,7 @@
      					    	##############################
         						#Efectuamos la consulta SQL####
         						#############################
-        			$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT 15")
+        			$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT 20")
         			or die("Error en la consulta SQL");
         						###################################
         						#Mostramos los resultados obtenidos

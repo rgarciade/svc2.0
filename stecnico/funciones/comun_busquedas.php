@@ -7,6 +7,12 @@
   <link type="text/css" href="../css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
 
 
+<!--complementos del modal-->
+	<link type="text/css" href="modal.css " rel="stylesheet" />
+	<link type="text/css" href="all_css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+<!--fin complementos modal-->
+	
+
   <STYLE>
   body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -3px }
   </STYLE>

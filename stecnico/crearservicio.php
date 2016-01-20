@@ -76,7 +76,7 @@ include("funciones/funciones.php");
 					# ################################### #
 
 					#Cerramos la conexión con la base de datos
-					mysql_close($conexion);
+					
 
 				}
 
