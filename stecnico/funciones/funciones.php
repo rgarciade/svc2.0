@@ -140,7 +140,7 @@
          activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
             // activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/'><span>MICRO-TEX</span></a></li>";
         //activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
-          echo"<li><a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
+          activ($page,"servicioactivo"); echo"<a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
 
   
        echo"  </ul>
@@ -204,7 +204,7 @@
 <!--<a href="#modal1">DESLIZAaaaR</a>-->
   <div id="modal1" class="modalmask">
       <div class="modalbox movedown">
-          <a href="#close" title="Close" class="close">X</a>
+          
 
 
 <div >
@@ -262,7 +262,7 @@
     </form>
   </table>
   </DIV>
-echo date("H:i"); 
+
 <?php
 
 

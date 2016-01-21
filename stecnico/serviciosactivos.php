@@ -3,7 +3,13 @@
       include("funciones/funciones.php");
       Menu("servicioactivo",$srva);?>
    <!--BUCLE TABLA-->
+     <!--cerrar cssmenu-->
+  </div>
+  <!--cerrar cabecera-->
+</div>
 <?PHP
+
+
 						##############################
 						#Efectuamos la consulta SQL####
 						#############################
