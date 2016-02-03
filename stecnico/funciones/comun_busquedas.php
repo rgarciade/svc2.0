@@ -16,3 +16,10 @@
   <STYLE>
   body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -3px }
   </STYLE>
+<?php
+//gestion de errores
+
+include("./errores/errores.php");
+set_error_handler("gestionderror");
+
+?>
