@@ -1,4 +1,8 @@
 # servicios2.0
+
+http://github.com - automatic!
+[Pagina Principal](http://rgarciade.github.io/svc2.0)
+
 Gestor de servicios rápido e intuitivo para empresas.
 
 #Funcionalidad
