@@ -25,7 +25,9 @@
 <!--fin complementos modal-->
 	
   <STYLE>
- <?php //body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -10px }?>
+ body { padding-top: 70px; }
+ <?php 
+ //body { margin-top: -4px; margin-right: 0px; margin-bottom: 1px; margin-left: -10px }?>
   </STYLE>
 
 

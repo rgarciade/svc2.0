@@ -132,7 +132,7 @@
 
 
 
-    echo  "<nav class='navbar navbar-default navbar-static-top'>
+    echo  "<nav class='navbar navbar-default navbar-static-top navbar-fixed-top'>
               <div id='container'>
                 <ul class='nav navbar-nav'>";
          activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
@@ -208,7 +208,7 @@
 
 
 <div >
-<a href='#close' title='Close' class='close'>X</a>
+<a href='' title='Close' class='close'>X</a>
   <table style='width:100%'>
     
     <form action='crearservicio.php' method='post'>

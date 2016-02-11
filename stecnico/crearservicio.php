@@ -67,7 +67,7 @@ include("funciones/funciones.php");
 					#########crear servicio activo
 					$hora=date('H:i'); 
 					$fech=date('Y-m-d');
-					echo "$Incidencia2";
+					header('location:index.php');
 					
 					$crea = mysqli_query ($conexion,"INSERT INTO `servicios`(`N_CLIENTE`, `CONTACTOS`,`SOPORTE`, `HORA_INICIO`,
 					`FECHA`,`Incidencia`,`Estado`) VALUES ('$cliente2','$contactos2','$soporte2','$hora_inicio2','$fecha2','$Incidencia2','activo')")

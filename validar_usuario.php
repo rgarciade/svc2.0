@@ -57,9 +57,9 @@ if( isset($_POST['nocsesion'])){
 						##############################
 						#BUSCAR RANGO SQL####
 						#############################
-##echo "hola1";
+echo "hola1";
 $consulta1 = mysqli_query($conexion,"SELECT * FROM `usuarios` WHERE nombre='$usu' AND pass='$pass' ") 
-							or die("Error en la consulta SQL");						
+							or die("Error en la consulta SQL 1");						
 ######
 ##### COMPROVAMOS EL  nªfilass DEL RESULTADO DE LA SELECT, SI ES DISTINTO DE 0 EL USUARIO EXISTE Y LA CONTRASEÑA ES VALIDA
 ###

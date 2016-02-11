@@ -65,65 +65,68 @@
 
 
     ?>
-    <form action="crearservicio.php" method="post">
-        <tr><td align="center" colspan="6">cabecera</td></tr>
-        <tr HEIGHT="25">
-        <!--espacio-->
-        </tr>
-        <!--primera linea-->
-        <tr>
-          <td><h3>nombre</td>
-          <td><br><input  id="tags" name="N_CLIENTE"  class="mayusculas" required>
-          		<div nombre="nuevo">	<br><?PHP echo $error;?></div>	</td>
-          		
 
-          <td><h3>soporte</td>
-          <td><select class="mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
-            <option></option>
-            <option>PRESENCIAL</option>
-            <option>REMOTO</optcion>
-            </select>
-         </td>
-         <td><h3>fecha</td>
-         <td><input class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></td>
-        </tr>
-        <!--segundalinea-->
-        <tr>
-          <td><h3>contacto</td>
+    
 
-          <td><br><input type="text" name="CONTACTOS"  class="mayusculas"/><br><br></td>
-          <td><h3>hora inicio</td>
-          <td><input class="mayusculas" type="datetime" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/></td>
-          <td><h3>texto</td>
-          <td><input class="mayusculas" type="text" name="TEXTO"  /></td>
-        </tr>
-        <!--tercera linea-->
-        <tr>
-          <td><h3>tecnico</td>
-          <td> <select class="mayusculas" name="N_TECNICO" sice=""pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
-                  <option></option>
-                  <option>JORGE</option>
-                  <option>DAVID</option>
-                  <option>RAUL</option>
-                  <option>JOSE</option>
-                </select>
-          </td>
-          <td><h3>hora fin</td>
-          <td><input class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" /></td>
-          <td><h3>piezas</td>
-          <td><input class="mayusculas" type="text" name="PIEZAS"  /></td>
-        </tr>
-        <tr HEIGHT="25">
-        <!--espacio-->
-        </tr>
-        <tr>
-          <td  align="center" colspan="6"><input class="mayusculas" type="submit" value="insertar"/></td></tr>
-    </form>
-</table>
-  </div><!--tabla1-->
-    <div class="CSSTableGenerator" >
-       <table style="width: 100%" >
-        <tr colspan="5" style="table-layout: fixed; width:100% ;height:2%";>
+
+<form action="crearservicio.php" method="post" class="form-group">
+  <div class="row">
+   
+    <h2 style="text-align:center">Formulario de Servicios</h2>
+
+
+  </div>
+
+  <div class="row">
+    <div class=" col-md-3">Nombre<br>
+      <input  class="form-control"id="tags" name="N_CLIENTE"  class="mayusculas" required>
+      <br><?PHP echo $error;?> 
+    </div>
+    <div class=" col-md-3">Soporte<br>
+      <select class="form-control" class="mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+        <option></option>
+        <option>PRESENCIAL</option>
+        <option>REMOTO</optcion>
+      </select>
+    </div>
+    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
+    <div class=" col-md-3">Contacto <br>
+      <input  class="form-control"class="form-control" type="text" name="CONTACTOS"  class="mayusculas"/>
+    </div>
+  </div> 
+  <div class="row">
+    <div class=" col-md-3">Hora Inicio<br>
+      <input  class="form-control"class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
+    </div>
+    <div class=" col-md-3">Hora Fin<br>
+      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
+    </div>
+    <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  /></div>
+    <div class=" col-md-3">Anotaciones <br>
+      <select class="form-control mayusculas" name="N_TECNICO" sice=""pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+        <option></option>
+        <option>JORGE</option>
+        <option>DAVID</option>
+        <option>RAUL</option>
+        <option>JOSE</option>
+      </select>
+    </div>  
+    <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"  ></textarea></div>
+   
+
+  </div>
+
+    <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="insertar"/></div>
+
+  </div>
+</form>
+
+<div>
+</br>
+
+    <div class="table-responsive" >
+       <table class="table table-striped"style="width: 100%" >
+        <tr colspan="5"  class="info"style="table-layout: fixed; width:100% ;height:2%";>
           <td>N_CLIENTE</td>
           <td >CONTACTOS</td>
           <td >TECNICO</td>  
@@ -138,7 +141,7 @@
         </tr>
 
            <!--BUCLE TABLA-->
-        <div ="bucle ultimosx">
+       
         <?PHP
      					    	##############################
         						#Efectuamos la consulta SQL####
@@ -189,14 +192,15 @@
               <input class="mayusculas" type="hidden" name="tex" value="<?PHP echo $tex ?>">
               <input class="mayusculas" type="hidden" name="pie" value="<?PHP echo $pie ?>">
               <input class="mayusculas" type="hidden" name="ser" value="<?PHP echo $ser ?>">
-              <input class="mayusculas" type="submit" value=""/>    
+             
+              <button class="mayusculas btn btn-success "  type="submit" value=""><i class="glyphicon glyphicon-pencil"></i></input>    
             </form>
            <?php 
           echo "</td>";
         }
         ?>
         </tr>
-      </div>
+
     </table>
 
 </div>

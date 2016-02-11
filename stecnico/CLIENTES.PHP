@@ -81,7 +81,7 @@
 		<div class="CSSTableGenerator" >
 
 
-			<table  style="table-layout: fixed; width:100% ;height:90%";>
+			<table class=" table table-striped" style="table-layout: fixed; width:100% ;height:90%";>
 			<colgroup>
 			<col style="width: 26px">
 			<col style="width: 21px">
@@ -90,8 +90,8 @@
 			<col style="width: 447px">
 			</colgroup>
 			  <tr style="table-layout: fixed; width:100% ;height:2%";>
-			    <td class="tg-s6z2" colspan="4">BUSCAR</td>
-			    <td class="tg-s6z2">DATOS</td>
+			    <td class="" colspan="4">BUSCAR</td>
+			    <td class="">DATOS</td>
 			  </tr>
 			  <tr>
 			    <td class="tg-s6z2" colspan="4" rowspan="3" >

@@ -1,0 +1,217 @@
+
+			     	[-- Thu, 04 Feb 2016 18:26:28 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:26:28 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:26:28 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:26:34 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:26:34 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:26:34 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:11 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:11 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:11 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:41 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:41 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:41 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:45 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:45 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:27:45 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:28:42 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:28:42 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:28:42 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:29:42 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:29:42 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:29:42 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:29:50 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:29:50 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:29:50 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:30:24 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:30:24 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Thu, 04 Feb 2016 18:30:24 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
