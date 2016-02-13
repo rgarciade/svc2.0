@@ -1,0 +1,753 @@
+
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 2 .  include(../ruras/conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening '../ruras/conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:08 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 2 .  include(../ruras/conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening '../ruras/conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:09 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 2 .  include(../ruras/conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening '../ruras/conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:11 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 2 .  include(../ruras/conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 163 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening '../ruras/conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 163 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 171 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 171 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 185 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 189 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:56:56 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 189 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  include(../ruras/conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 163 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening '../ruras/conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 163 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 171 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 171 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 185 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 189 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 189 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  include(conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:00 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  include(../ruras/conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 163 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening '../ruras/conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 163 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 171 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 171 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 185 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 189 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 189 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  include(conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:31 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:48 +0100 --]
+			  Error de Tipo: 2 .  include(conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:48 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:54 +0100 --]
+			  Error de Tipo: 2 .  include(conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 15:57:54 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 10 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:00:13 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: error
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\formulariomodificar.php .
+			  Localizado en la linea --> 42 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:00:16 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: error
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\rutas\formulariomodificar.php .
+			  Localizado en la linea --> 42 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 2 .  include(E:\wamp\www\servicios2.0\stecnico\rutas\conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:01 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 2 .  include(E:\wamp\www\servicios2.0\stecnico\rutas\conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:04:02 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 2 .  include(E:\wamp\www\servicios2.0\stecnico\rutas\conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:02 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 2 .  include(E:\wamp\www\servicios2.0\stecnico\rutas\conexion.php): failed to open stream: No such file or directory
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 2 .  include(): Failed opening 'conexion.php' for inclusion (include_path='.;C:\php\pear')
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 12 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 2 .  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 24 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: elementos
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 2 .  implode(): Invalid arguments passed
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 28 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 8 .  Undefined variable: conexion
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sat, 13 Feb 2016 16:05:05 +0100 --]
+			  Error de Tipo: 2 .  mysqli_query() expects parameter 1 to be mysqli, null given
+			  Localizado en el fichero E:\wamp\www\servicios2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 70 
+			  
+			  ------------------------------------------------------
+
+			  

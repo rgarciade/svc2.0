@@ -4,7 +4,7 @@
 
 		<?PHP
 
-include("funciones/funciones.php");
+include("../funciones/funciones.php");
 
 		$cliente2=$_POST['N_CLIENTE'];
 		$contactos2=$_POST['CONTACTOS'];
@@ -34,7 +34,7 @@ include("funciones/funciones.php");
 				$Incidencia2=$_POST['INCIDENCIA'];
 			}
 
-		include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+		include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
 		?>
 		<div nombre="nuevo">

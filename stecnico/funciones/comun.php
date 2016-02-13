@@ -12,11 +12,11 @@
 
 
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <script language="JavaScript" src="js/jquery-1.5.1.min.js"></script>
-  <script language="JavaScript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
-  <link type="text/css" href="css/indexcss.css" rel="stylesheet" />
+  <script language="JavaScript" src="../js/jquery-1.5.1.min.js"></script>
+  <script language="JavaScript" src="../js/jquery-ui-1.8.13.custom.min.js"></script>
+  <link type="text/css" href="../css/index.css" rel="stylesheet" />
   <!--<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />-->
-  <link type="text/css" href="css/busquedaempresas/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+  <link type="text/css" href="../css/busquedaempresas/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
 
 <!--complementos del modal-->
 	<link type="text/css" href="modal.css " rel="stylesheet" />
@@ -34,7 +34,6 @@
 <?php
 //gestion de errores
 
-include("./errores/errores.php");
+include("../errores/errores.php");
 set_error_handler("gestionderror");
-
 ?>

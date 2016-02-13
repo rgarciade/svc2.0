@@ -1,6 +1,6 @@
 <?php 
-include("../funciones/comun_busquedas.php");
-include("../funciones/funciones_busquedas.php");
+include("../funciones/comun.php");
+include("../funciones/funciones.php");
 include("cabezerabusquedas.php");
 
 

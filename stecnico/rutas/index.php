@@ -1,13 +1,13 @@
 <body>
 <meta http-equiv="refresh" content="60">
-<?php include("funciones/comun.php");
-      include("funciones/funciones.php");
+<?php include("../funciones/comun.php");
+      include("../funciones/funciones.php");
       Menu("index",$srva);
 ?>
 <div name="formula predictiva">
       <?php 
    #busqueda predictiva
-      include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+      include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
 

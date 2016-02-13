@@ -1,10 +1,10 @@
 <div name="comun">
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <script language="JavaScript" src="js/jquery-1.5.1.min.js"></script>
-  <script language="JavaScript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
-  <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
-  <script language="javascript" src="js/jquery.js"></script>
-  <link type="text/css" href="indexcss.css" rel="stylesheet" />
+  <script language="JavaScript" src="../js/jquery-1.5.1.min.js"></script>
+  <script language="JavaScript" src="../js/jquery-ui-1.8.13.custom.min.js"></script>
+  <link type="text/css" href="../css/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+  <script language="javascript" src="../js/jquery.js"></script>
+  <link type="text/css" href="../indexcss.css" rel="stylesheet" />
 
 <div id='cssmenu'>
   <ul>
@@ -50,32 +50,32 @@ $tec=$_POST['N_TECNICO'];
  
 switch ($acc) {
   case "CLI_FECHA" :
-    header("location:./busquedas/Cliente_Fecha.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+    header("location:../busquedas/Cliente_Fecha.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
 
   case "IMPRIMIR":  
-      header("location:./busquedas/Imprimir.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+      header("location:../busquedas/Imprimir.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "TODOS":
-      header("location:./busquedas/Todos.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+      header("location:../busquedas/Todos.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "TODOS_FECHA":
-      header("location:./busquedas/Todos_fecha.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+      header("location:../busquedas/Todos_fecha.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "TODOS_FECHA_TECNICO":
-       header("location:./busquedas/Todos_fecha_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+       header("location:../busquedas/Todos_fecha_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "TODOS_TECNICO":
-       header("location:./busquedas/Todos_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+       header("location:../busquedas/Todos_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "CLI_FECHA_TECNICO":
-       header("location:./busquedas/Cli_fecha_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+       header("location:../busquedas/Cli_fecha_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "CLI_TECNICO":
-       header("location:./busquedas/Cli_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+       header("location:../busquedas/Cli_tecnico.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
   case "CLI":
-       header("location:./busquedas/Cli.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
+       header("location:../busquedas/Cli.php?usu=$usu&fe1=$fe1&fe2=$fe2&tec=$tec");
     break;
 
   }

@@ -1,5 +1,5 @@
-<?php include("funciones/comun.php");
-      include("funciones/funciones.php");
+<?php include("../funciones/comun.php");
+      include("../funciones/funciones.php");
       Menu("busquedas",$srva);
 ?>
 
@@ -21,9 +21,9 @@
             <td colspan="5" rowspan="3">
     	         <form action="FORMULASBUSQUEDAS.php" method="post" name="formulario1">
                       	<?PHP  if( !isset($_GET['as'])){ 
-                                          echo "<img src='images/buscar.jpg' width='10%' height='40%'>";
+                                          echo "<img src='../images/buscar.jpg' width='10%' height='40%'>";
                       	           }else{
-                                          echo "<img src='images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'><H2>NO SE ENCONTRARON SERVICIOS</H2></div>";
+                                          echo "<img src='../images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'><H2>NO SE ENCONTRARON SERVICIOS</H2></div>";
                                         }?>
                         </BR></BR></BR></BR>
                         	<H1>CLIENTE___FECHA INICIO___FECHA FIN___TECNICO__________CAMPO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

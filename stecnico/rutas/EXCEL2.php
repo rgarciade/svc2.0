@@ -1,7 +1,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?PHP #DATOS MODIFICAR
-  include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
-  include("funciones/funciones.php");
+  include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+  include("../funciones/funciones.php");
 
    $usu=$_GET['usu'];
    $fe1=$_GET['fe1'];
@@ -36,7 +36,7 @@ header('Cache-Control: max-age=0');
      $registros = mysqli_num_rows ($resultado);
       
      if ($registros > 0) {
-             require_once 'Classes/PHPExcel.php';
+             require_once '../Classes/PHPExcel.php';
               $objPHPExcel = new PHPExcel();
               
              //Informacion del excel

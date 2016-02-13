@@ -15,7 +15,7 @@
 		#nombre base de datos
 			$nbd="microtex";
 		#destino despues de validar
-			$ddv="location:./stecnico";
+			$ddv="location:./stecnico/rutas";
 		
 		
   # variables obtenidas en el formulario del index y pasadas por post

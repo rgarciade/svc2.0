@@ -1,7 +1,7 @@
 <html>
 	<?php
-		include("funciones/comun.php");
-		include("funciones/funciones.php");     
+		include("../funciones/comun.php");
+		include("../funciones/funciones.php");     
       Menu("clientes",$srva);
 ?>
 	<!--cerrar cssmenu-->
@@ -99,7 +99,7 @@
 								<form action="CLIENTES.php" method="post" name="formulario1">
 									<?PHP  
 									if ($as2=="ERROR2"){ 
-										echo "<img src='images/ERRORES/error2.jpg' width='15%' height='5%'> <div style='color:#00FF00;'><P>EL CLIENTE NO EXISTE</P></div>";
+										echo "<img src='../images/ERRORES/error2.jpg' width='15%' height='5%'> <div style='color:#00FF00;'><P>EL CLIENTE NO EXISTE</P></div>";
 									}?>
 								</BR>
 								<h3><b>BUSCAR CLIENTE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></h3>
@@ -117,13 +117,13 @@
 			<!--imagen error el cliente ya existe, error1-->
 			<?PHP 
 					 if ($as1=="error1"){ 
-										echo "<img src='images/ERRORES/error1.gif' width='15%' height='25%'> <div style='color:#00FF00;'><P>EL cliente YA EXISTE</P></div>";
+										echo "<img src='../images/ERRORES/error1.gif' width='15%' height='25%'> <div style='color:#00FF00;'><P>EL cliente YA EXISTE</P></div>";
 									}
 						 	elseif ($as1=="MODI"){
 						 					echo "<div style='color:#00FF00;'><P> USUARIO MODIFICADO</P></div>";
 						 				}
 					 if ($cr1=="b"){
-					 					echo "<img src='images/tic.jpg' width='5%' height='15%'><div style='color:#00FF00;'><P> cliente CREADO </P></div>";
+					 					echo "<img src='../images/tic.jpg' width='5%' height='15%'><div style='color:#00FF00;'><P> cliente CREADO </P></div>";
 					 				}
 
 			 ?>

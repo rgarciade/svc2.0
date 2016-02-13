@@ -1,5 +1,5 @@
-<?php include("funciones/comun.php");
-      include("funciones/funciones.php");     
+<?php include("../funciones/comun.php");
+      include("../funciones/funciones.php");     
        Menu("",$srva);
 
 ?>

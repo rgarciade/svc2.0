@@ -1,6 +1,6 @@
 <?php 
-include("../funciones/comun_busquedas.php");
-include("../funciones/funciones_busquedas.php");
+include("../funciones/comun.php");
+include("../funciones/funciones.php");
 include("cabezerabusquedas.php"); #CONEXION
 #CONSULTA		
     						##############################
@@ -17,7 +17,7 @@ include("cabezerabusquedas.php"); #CONEXION
     #Cerramos la conexión con la base de datos
     mysqli_close($conexion);
     
-      header('location:../BUSQUEDAS.PHP?as=ERROR3');
+      header('location:../rutas/BUSQUEDAS.PHP?as=ERROR3');
 
     }else{
     #echo "hay registros";

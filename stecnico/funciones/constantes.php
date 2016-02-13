@@ -1,9 +1,9 @@
 <?php
 
 //Gestion de errores
-define('REPORT',"on");
+define('REPORT',true);
 
 //reportespor log, on activo
-define('LOGS',"on");
+define('LOGS',false);
 
 ?>

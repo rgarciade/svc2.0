@@ -1,5 +1,5 @@
-<?php include("../funciones/comun_busquedas.php");
-include("../funciones/funciones_busquedas.php");
+<?php include("../funciones/comun.php");
+include("../funciones/funciones.php");
 include("cabezerabusquedas.php");#CONEXION
 # ################################### #
 ?>
@@ -17,7 +17,7 @@ $numero_filas = mysqli_num_rows($consulta1);
  if ($numero_filas == 0 ) {
 #Cerramos la conexión con la base de datos
 mysqli_close($conexion);
-header('location:BUSQUEDAS.PHP?as=ERROR3');
+header('location:../rutas/BUSQUEDAS.PHP?as=ERROR3');
 }else{
 #echo "hay registros";
 

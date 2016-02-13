@@ -1,6 +1,6 @@
    <?php
 
-    include("funciones/comun.php");
+    include("../funciones/comun.php");
     include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays

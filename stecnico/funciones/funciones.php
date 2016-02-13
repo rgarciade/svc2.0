@@ -1,7 +1,7 @@
 <div name="formula predictiva">
       <?php 
    #busqueda predictiva
-      include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+      include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
 
@@ -132,7 +132,8 @@
 
 
 
-    echo  "<nav class='navbar navbar-default navbar-static-top navbar-fixed-top'>
+    echo  " 
+    <nav class='navbar navbar-default navbar-static-top navbar-fixed-top'>
               <div id='container'>
                 <ul class='nav navbar-nav'>";
          activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
@@ -146,7 +147,7 @@
        echo"  </ul>
 
                 <ul class='nav navbar-nav navbar-right'>
-                     <li><a  href='funciones/destruir.php'><span>cerrar sesion</span></a></li>
+                     <li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>
                     <li>
                       <a href='SERVICIOSACTIVOS.php'>
                        
@@ -157,8 +158,6 @@
                 </ul>
               </div>
             </nav>
-
-
             ";
  
     include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
