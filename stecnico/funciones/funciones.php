@@ -88,6 +88,12 @@
             return $ret;
             } 	
 //funciones (formulario modificar)
+  function espacios($numero){
+    for ($i=0; $i < $numero; $i++) { 
+      echo "&nbsp;";
+    }
+    
+  }
   function Reorg_arr($ori,$arr,$length){
     
     $contador    = 0;

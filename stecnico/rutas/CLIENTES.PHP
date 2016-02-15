@@ -1,4 +1,4 @@
-<html>
+
 	<?php
 		include("../funciones/comun.php");
 		include("../funciones/funciones.php");     
@@ -16,15 +16,16 @@
 	$tel="";
 	$cal="";
 	$mai="";
-
+	$mostrar_infe = false;
 	?>
 
 	<?php #CONEXION Y CONDICIONES
 
 	if( isset($_GET['as']))
 	{
-	$as1=$_GET['as'];
 
+	$as1=$_GET['as'];
+		if($as1 === "activ"){$mostrar_infe = true;}
 	}else{
 	$as1="1";}
 
@@ -46,13 +47,12 @@
 	if( isset($_POST['N_CLIENTE'])){
 			
 			$nom=$_POST['N_CLIENTE'];
-
-									# ################################### #
+					# ################################### #
 									##############################
 									#Efectuamos la consulta SQL####
 									#############################
-									
-									
+			
+										
 			$result = mysqli_query ($conexion,"select * from clientes where cliente='$nom'" )
 				or die("Error en la consulta SQL");
 
@@ -70,101 +70,146 @@
 			 if ($numero_filas == 0 ) {
 				 $nom="";
 				#Cerramos la conexión con la base de datos
-				mysqli_close($conexion);
-					header('location:CLIENTES.PHP?as2=ERROR2');
+
+
+				$as2 = "ERROR2";
+			}else{
+				$as2 ="";
+				$mostrar_infe = true;
+
 			}
 
 			#Cerramos la conexión con la base de datos
 			mysqli_close($conexion);
 	}
 ?>
-		<div class="CSSTableGenerator clientesTabla" >
 
+ <h2 style="text-align:center">BUSCAR CLIENTE</h2>
 
-			<table class=" table table-striped" style="table-layout: fixed; width:100% ;height:90%";>
-			<colgroup>
-			<col style="width: 26px">
-			<col style="width: 21px">
-			<col style="width: 19px">
-			<col style="width: 113px">
-			<col style="width: 447px">
-			</colgroup>
-			  <tr style="table-layout: fixed; width:100% ;height:2%";>
-			    <td class="" colspan="4">BUSCAR</td>
-			    <td class="">DATOS</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-s6z2" colspan="4" rowspan="3" >
-				<p align="center">
-								<form action="CLIENTES.php" method="post" name="formulario1">
-									<?PHP  
-									if ($as2=="ERROR2"){ 
-										echo "<img src='../images/ERRORES/error2.jpg' width='15%' height='5%'> <div style='color:#00FF00;'><P>EL CLIENTE NO EXISTE</P></div>";
-									}?>
-								</BR>
-								<h3><b>BUSCAR CLIENTE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></h3>
-								<BR/>
+		<br><br>
+					<form action="CLIENTES.php" method="post" name="formulario1">
+						<?PHP  
+						if ($cr1=="b"){echo "
+							<div class='row'>
+								<div class= col-md-5></div>
+									<div class= col-md-3>
+												";
+												espacios(12);
+												echo"
+													<img src='../images/tic.jpg' width='5%' height='15%'>
+													<div style='color:#00FF00;'>
+														<P> cliente CREADO </P>
+		 											</div>
+							 		</div>
+								<div class= col-md-4></div>
+							</div>";
 
-			                       <input id="tags" name="N_CLIENTE" class="mayusculas" 
-								        />
-								   <input type="submit" value="BUSCAR" />
-								 </form>
-			        </p>
-				</td>
-			    <td class="tg-031e">
-				
-
-			<!--imagen error el cliente ya existe, error1-->
-			<?PHP 
-					 if ($as1=="error1"){ 
-										echo "<img src='../images/ERRORES/error1.gif' width='15%' height='25%'> <div style='color:#00FF00;'><P>EL cliente YA EXISTE</P></div>";
-									}
-						 	elseif ($as1=="MODI"){
-						 					echo "<div style='color:#00FF00;'><P> USUARIO MODIFICADO</P></div>";
-						 				}
-					 if ($cr1=="b"){
-					 					echo "<img src='../images/tic.jpg' width='5%' height='15%'><div style='color:#00FF00;'><P> cliente CREADO </P></div>";
 					 				}
+						if ($as1=="error1"){
+							echo "
+							<div class='row'>
+								<div class= col-md-5></div>
+									<div class= col-md-3>
+									";espacios(12);
+							echo"
+	 									<img src='../images/ERRORES/error1.gif' width='15%' height='25%'> 
+			 							<div style='color:#00FF00;'>
+			 								<P>EL cliente YA EXISTE</P>
+			 							</div>
+							 		</div>
+								<div class= col-md-4></div>
+							</div>";
+							 						}elseif ($as1=="MODI"){
+							 							echo "<div class='row'>
+																<div class= col-md-5></div>
+																	<div class= col-md-3>";
+																	espacios(12);
+														echo "
+							 											<div style='color:#00FF00;'>
+							 												<P> USUARIO MODIFICADO</P>
+							 											</div>
+							 										</div>
+																<div class= col-md-4></div>
+															   </div>";}
 
+								
+						if ($as2=="ERROR2"){ 
+							
+							echo "
+							<div class='row'>
+								<div class= col-md-5></div>
+									<div class= col-md-3>
+												";
+												
+							
+												espacios(12);
+												echo"	<img src='../images/ERRORES/error2.jpg' width='15%' height='5%'>
+													 <div style='color:#00FF00;'>
+															 	<P>EL CLIENTE NO EXISTE</P>
+															</div></tr>
+									</div>
+								<div class= col-md-4></div></div>";
+
+						}?>
+						<div class="row">
+							<div class=" col-md-4"></div>
+								<div class=" col-md-4">
+									<input class="form-control" id="tags" name="N_CLIENTE" class="mayusculas"/>
+								</div>
+								<div class=" col-md-2">
+									<button class="btn btn-warning btn-sm" type="submit" value="BUSCAR" >Buscar</button>
+								</div>
+							<div class=" col-md-1"></div>
+						  </div>
+					</form>
+										<?php if ($mostrar_infe === false){ 
+											?>
+								<div class="row">
+							<div class=" col-md-4"></div>
+								<div class=" col-md-4">
+								
+								</div>
+								<div class=" col-md-2">
+									<a href="./CLIENTES.php?as=activ"><button class="btn btn-default btn-sm">&nbsp&nbspcrear&nbsp</button></a>	
+								</div>
+							<div class=" col-md-1"></div>
+						  </div>
+
+
+
+
+
+											<?php }?>
+	</div>		    
+</br>
+			<!--imagen error el cliente ya existe, error1-->
+			
+			<?PHP 
+
+
+			
+					 if ($mostrar_infe === true){
 			 ?>
 
 						<form id="myform" action="CREARMODIFICLIENTE.php" method="post" onSubmit="return ValidaCampos(this)">
 
-									   
-
-									 NOMBRE DE CLIENTE&nbsp;
+									 NOMBRE DE CLIENTE;
 									<input  size="60px" type="text" name="N_CLIENTE" value="<?PHP echo $nom ?>" class="mayusculas" required/><br/>
 									 </br></br>
 										 	CONTACTOS
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											
 										 <input size="60px" type="text" name="CONTACTOS" value="<?PHP echo $con ?>" class="mayusculas" /><br/>
 									  </br></br>
 										  	DIRECCIÓN 
-										  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										  <input size="60px"type="text" name="CALLE" value="<?PHP echo $cal ?>" class="mayusculas" /><br/>
+										  	  <input size="60px"type="text" name="CALLE" value="<?PHP echo $cal ?>" class="mayusculas" /><br/>
 
 									 </br></br>TELEFONO 
-											 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										 <input type="text" name="TELEFONO" value="<?PHP echo $tel ?>" pattern="^[0-9]{9}$" /><br/>
+											  <input type="text" name="TELEFONO" value="<?PHP echo $tel ?>" pattern="^[0-9]{9}$" /><br/>
 									  </br></br>
 										  	MAIL
-										  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										 <input  type="text" name="MAIL" value="<?PHP echo $mai ?>"  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" /><br/>
+										   <input  type="text" name="MAIL" value="<?PHP echo $mai ?>"  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" /><br/>
 									  </br></br>
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									 <input type="submit" name="enviar" value="CREAR"/>
+										   <input type="submit" name="enviar" value="CREAR"/>
 								     <input type="submit" name="enviar"value="MODIFICAR" />
 								  </form>
-									  
-						</form>
-				</td>
-			  </tr>
-			  
-			  
-
-			</table>
-
-		 
-		</div>
-	</body>
-</html>
+				<?php } ?>

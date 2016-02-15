@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../../images/pequeicon.png">
+  <title>serv2.0</title>
+</head>
+</html>
 <div name="comun">
   <!--refresco cada x tiempo-->
 <!-- Latest compiled and minified CSS -->

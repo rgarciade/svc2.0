@@ -25,7 +25,7 @@ include("../funciones/funciones.php");
 <?php #CONEXION
 
 	#Conectamos con MySQL
-	include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+	include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 	
 	#Seleccionamos la base de datos a utilizar
 	mysqli_select_db($conexion,"microtex")

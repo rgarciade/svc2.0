@@ -1,4 +1,4 @@
-<body>
+
 <meta http-equiv="refresh" content="60">
 <?php include("../funciones/comun.php");
       include("../funciones/funciones.php");
@@ -92,15 +92,15 @@
     </div>
     <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
     <div class=" col-md-3">Contacto <br>
-      <input  class="form-control"class="form-control" type="text" name="CONTACTOS"  class="mayusculas"/>
+      <input  class="form-control" type="text" name="CONTACTOS"  class="mayusculas"/>
     </div>
   </div> 
   <div class="row">
     <div class=" col-md-3">Hora Inicio<br>
-      <input  class="form-control"class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
+      <input  class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
     </div>
     <div class=" col-md-3">Hora Fin<br>
-      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
+      <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
     </div>
     <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  /></div>
     <div class=" col-md-3">Anotaciones <br>
@@ -209,4 +209,3 @@
 <?php #Cerramos la conexión con la base de datos
 mysqli_close($conexion);
 ?>
-</body>

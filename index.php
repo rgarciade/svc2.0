@@ -19,7 +19,8 @@ if( isset($_GET['log'])){
 
   <meta charset="UTF-8">
 
-  <title>Servicios2.0- Login</title>
+  <title>Srv2.0 Login</title>
+  <link rel="shortcut icon" href="images/pequeicon.png">
 
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 

@@ -22,7 +22,7 @@ function gestionderror($type,$message,$file,$line){
 
 			  ";
 		//Save string to log, use FILE_APPEND to append.
-		file_put_contents('./log_'.date("j.n.Y").'.txt', $log, FILE_APPEND);
+		file_put_contents('../errores/log_'.date("j.n.Y").'.txt', $log, FILE_APPEND);
 	}
 }
 
