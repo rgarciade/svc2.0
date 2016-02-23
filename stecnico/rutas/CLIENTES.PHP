@@ -91,6 +91,7 @@
 		<div class="estadosClientes">
 		<?PHP  
 
+
 		if ($cr1=="b"){echo "
 			<div class='row' >
 				<div class= col-md-5></div>
