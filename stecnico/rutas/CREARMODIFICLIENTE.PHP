@@ -57,7 +57,8 @@ include("../funciones/funciones.php");
 					mysqli_close($conexion);
 					header('location:CLIENTES.PHP?cr=b');
 			}
-	}else{
+	}
+	if ($acc =="MODIFICAR" ){
 							##############################
 							#MODIFICAR  consulta SQL####
 							#############################

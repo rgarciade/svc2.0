@@ -139,7 +139,7 @@
 
 
     echo  " 
-    <nav class='navbar navbar-default navbar-static-top navbar-fixed-top'>
+    <nav  class='navbar navbar-default navbar-static-top navbar-fixed-top'>
               <div id='container'>
                 <ul class='nav navbar-nav'>";
          activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";

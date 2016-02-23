@@ -75,8 +75,7 @@
 
    
     <h2 style="text-align:center">Formulario de Servicios</h2>
-
-  <div class="row">
+  <div class="row FormurarioIndex">
 
 
     <div class=" col-md-3">Nombre<br>
@@ -84,7 +83,7 @@
       <br><?PHP echo $error;?> 
     </div>
     <div class=" col-md-3">Soporte<br>
-      <select class="form-control" class="mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+      <select class="form-control mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
         <option></option>
         <option>PRESENCIAL</option>
         <option>REMOTO</optcion>
