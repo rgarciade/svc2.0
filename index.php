@@ -25,7 +25,6 @@ if( isset($_GET['log'])){
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
 </head>
-
 <body>
   <div id="toggle-login">
 
