@@ -139,7 +139,7 @@
             
           </div>
           <div>
-          <ul class='nav navbar-nav '> ";
+          <ul class='nav navbar-nav navbar-left'> ";
             activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
                 activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
                 activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
@@ -291,6 +291,7 @@ echo"  </ul>
 
   
 }
+ 
  if (LOGIN === true){
 if(isset($_COOKIE['ms'])){
  session_id($_COOKIE['ms']);
@@ -314,76 +315,6 @@ else
       header('location:../../index.php');     
 } 
 }
-
-// construccion del modal de sercicios activos
-/*function modal(){  
-    
-      $noex='';
-
-      if( isset($_GET['as'])){
-        $as1='EL CLIENTE NO EXISTE';
-
-      }else{
-        $as1='';}
-
-echo "<div >
-<a href='#close' title='Close' class='close'>X</a>
-  <table style='width:100%'>
-    
-    <form action='crearservicio.php' method='post'>
-      <tr>
-        <td align='center' colspan='6'>Servicio Activo</td>
-      </tr>
-
-      <!--primera linea-->
-      <tr>
-        <td><h3>Nombre</td>
-        <td>
-          <br><input  id='tags' name='N_CLIENTE'  class='mayusculas' required>
-          <div nombre='nuevo'>  
-            <br><?PHP echo $as1;?>
-          </div>  
-        </td>
-          
-
-        <td>
-          <h3>Soporte
-        </td>
-        <td>
-          <select class='mayusculas' name='SOPORTE'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>
-            <option></option>
-            <option>PRESENCIAL</option>
-            <option>REMOTO</optcion>
-            </select>
-        </td>
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-
-        <td><h3>Contacto</td>
-
-        <td> <br><input type='text' name='CONTACTOS'  class='mayusculas' required/><br><br></td>
-
-        <td><h3>Incidencia</td>
-        <td><input class='mayusculas' type='text' name='INCIDENCIA'  required/></td>
-        <tr>
-          
-        </tr>
-
-            <input class='mayusculas' type='hidden' name='HORA_INICIO' value='echo date('H:i'); '/>
-            <input class='mayusculas' type='hidden' name='FECHA' value=' echo date('Y-m-d'); ' />
-          <input class='mayusculas' type='hidden' name='srv' value='1'>
-        <td  align='center' colspan='6'><input class='mayusculas' type='submit' value='insertar'/></td>
-      </tr>
-    </form>
-  </table>
-  </DIV>";
-};*/
-
-
 
 
        ?>
