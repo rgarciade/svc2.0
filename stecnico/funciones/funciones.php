@@ -133,38 +133,46 @@
 
  function Menu($page,$srva){
 
-  
+  echo "<div  class='navbar navbar-default navbar-fixed-top-' role='navigation'>
+        <div class='container'>
+          <div class='navbar-header'>
+            
+          </div>
+          <div>
+          <ul class='nav navbar-nav '> ";
+            activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
+                activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
+                activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
+
+                activ($page,"servicioactivo"); echo"<a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
+           
+         
+         echo " </ul>";
 
 
+echo"  </ul>
 
-
-    echo  " 
-    <nav  class='navbar navbar-default navbar-static-top navbar-fixed-top'>
-              <div id='container'>
-                <ul class='nav navbar-nav'>";
-         activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
-         activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
-         activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
-            // activ($page,"servicios2.0");   echo "<a  href='/servicios2.0/'><span>MICRO-TEX</span></a></li>";
-        //activ($page,"servicioactivo");   echo "<a  href='#' onClick='abrirVentana(`CREARSERVACTIVO.PHP`)'><span>NUEVO SERV ACTIVO</span></a></li>";
-          activ($page,"servicioactivo"); echo"<a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
-
-  
-       echo"  </ul>
-
-                <ul class='nav navbar-nav navbar-right'>
-                     <li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>
-                    <li>
-                      <a href='SERVICIOSACTIVOS.php'>
+                <ul class='nav navbar-nav navbar-right'> ";
+                     if (LOGIN === true){
+                        echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
+                      }
+                     
+       echo "                 <li>
+                                   <a href='SERVICIOSACTIVOS.php'>
                        
-                          Servicios activos <span class='badge'>$srva</span>
+                             Servicios activos <span class='badge'>$srva</span>
                        
                       </a>
                   </li>
                 </ul>
               </div>
             </nav>
-            ";
+            
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    ";
  
     include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
@@ -283,7 +291,7 @@
 
   
 }
-
+ if (LOGIN === true){
 if(isset($_COOKIE['ms'])){
  session_id($_COOKIE['ms']);
 }
@@ -303,9 +311,9 @@ else
 
        // Usuario que no se ha logueado 
 
-      header('location:../index.php');     
+      header('location:../../index.php');     
 } 
-
+}
 
 // construccion del modal de sercicios activos
 /*function modal(){  

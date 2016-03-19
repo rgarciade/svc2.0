@@ -34,10 +34,10 @@
                   $arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
 
                 ?>  
-                  var availableTags=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
+                  var availableTagss=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
                       
-                  $( "#tags" ).autocomplete({
-                    source: availableTags
+                  $( "#tagss" ).autocomplete({
+                    source: availableTagss
                   });
                   
                 });
@@ -79,7 +79,7 @@
 
 
     <div class=" col-md-3">Nombre<br>
-      <input  class="form-control"id="tags" name="N_CLIENTE"  class="mayusculas" required>
+      <input  class="form-control" id="tagss" name="N_CLIENTE"  class="mayusculas" required>
       <br><?PHP echo $error;?> 
     </div>
     <div class=" col-md-3">Soporte<br>
@@ -207,4 +207,7 @@
 <!--cerrar comun-->
 <?php #Cerramos la conexión con la base de datos
 mysqli_close($conexion);
-?>
+
+?> 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>--!>
