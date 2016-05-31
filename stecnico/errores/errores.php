@@ -11,7 +11,7 @@ function gestionderror($type,$message,$file,$line){
 					  
 			  ------------------------------------------------------<br>";
 	}
-	if (LOGS === false) {
+	if (LOGS === true) {
 		$log  = "
 			     	[-- $date --]
 			  Error de Tipo: $type .  $message
