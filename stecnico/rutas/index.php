@@ -102,7 +102,7 @@
       <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
     </div>
     <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  /></div>
-    <div class=" col-md-3">Anotaciones <br>
+    <div class=" col-md-3">Tecnico <br>
       <select class="form-control mayusculas" name="N_TECNICO" sice=""pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
         <option></option>
         <option>JORGE</option>

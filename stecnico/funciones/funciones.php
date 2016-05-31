@@ -104,7 +104,6 @@
           $iaux = $i;
           $i = $length;
       } 
-
     }
     for ($z=0; $z < $length ; $z ++) { 
         
@@ -117,14 +116,15 @@
     return $arrfin;
   };
   function mostrar_select($arr,$name){
-            echo "<td><select name='$name' sice='' value=''pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
-                  $count= 0;
-                  foreach ($arr as $key => $value) {
-                        option($value,$count);
-                        $count++;
-                  }
-            echo "    </select>
-                </td>";
+    echo "<div class=' col-md-3'>$name<br>
+           <select class='form-control' class='mayusculas' name='$name'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
+        $count= 0;
+        foreach ($arr as $key => $value) {
+              option($value,$count);
+              $count++;
+        }
+    echo"   </select>
+          </div>";
             }
   function option($value,$count){
       if ($value != "") echo "<option>$value</option>";
