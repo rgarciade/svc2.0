@@ -191,3 +191,1475 @@
 			  ------------------------------------------------------
 
 			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:16:46 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:28:57 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant activo - assumed 'activo'
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\MODIFICARSERVICIO.php .
+			  Localizado en la linea --> 17 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:28:57 +0200 --]
+			  Error de Tipo: 2 .  Cannot modify header information - headers already sent by (output started at E:\wamp\www\svc2.0\stecnico\errores\errores.php:12)
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\MODIFICARSERVICIO.php .
+			  Localizado en la linea --> 35 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:29:53 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:21 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:30:24 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: con1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 67 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: hfin1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 72 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: fech1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 75 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: pie1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 77 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tec1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 80 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: tex1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 82 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Tue, 31 May 2016 21:33:15 +0200 --]
+			  Error de Tipo: 8 .  Undefined variable: ser1
+			  Localizado en el fichero E:\wamp\www\svc2.0\stecnico\rutas\serviciosactivos.php .
+			  Localizado en la linea --> 88 
+			  
+			  ------------------------------------------------------
+
+			  

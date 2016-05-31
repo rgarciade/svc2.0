@@ -195,6 +195,7 @@
               <input class="mayusculas" type="hidden" name="tex" value="<?PHP echo $tex ?>">
               <input class="mayusculas" type="hidden" name="pie" value="<?PHP echo $pie ?>">
               <input class="mayusculas" type="hidden" name="ser" value="<?PHP echo $ser ?>">
+              <input class="mayusculas" type="hidden" name="estado" value="<?PHP echo $estado ?>">
              
               <button class="mayusculas btn btn-success "  type="submit" value=""><i class="glyphicon glyphicon-pencil"></i></input>    
             </form>

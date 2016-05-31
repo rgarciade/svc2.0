@@ -20,6 +20,7 @@
 	$tex1  = $_POST['tex'];
 	$pie1  = $_POST['pie'];
 	$ser1  = $_POST['ser'];
+  $estado = $_POST['estado'];
 
 // array tecnico Y SOPORTE
 
@@ -65,9 +66,11 @@
    
 
   </div>
-
+    <input type="hidden" name="NUM_SERVICIO" value="<?PHP echo $ser1?>">
+    
+              <input class="mayusculas" type="hidden" name="estado" value="<?PHP echo $estado ?>">
     <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="Modificar"/></div>
-   	<input type="hidden" name="NUM_SERVICIO" value="<?PHP echo $ser1?>">
+
 
   </div>
 </form>

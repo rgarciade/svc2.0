@@ -25,30 +25,70 @@
 <?PHP       
 while( $row = mysqli_fetch_array ( $result )) {
 
-  
-  $row [ "NUM_SERVICIO" ];
 
-  $a=$row [ "NUM_SERVICIO" ];
+  $num_servicio = $row [ "NUM_SERVICIO" ];
 
-  $cli=$row [ "N_CLIENTE" ];
+  $cliente = $row [ "N_CLIENTE" ];
 
-  $con=$row [ "CONTACTOS" ];
+  $contactos = $row [ "CONTACTOS" ];
 
-  $sop=$row [ "SOPORTE" ];
+  $soporte = $row [ "SOPORTE" ];
 
-  $hini=$row [ "HORA_INICIO" ];
+  $hora_inicio = $row [ "HORA_INICIO" ];
 
-  $fech=$row [ "FECHA" ];
+  $fecha = $row [ "FECHA" ];
 
-  $inci=$row [ "Incidencia" ];
+  $incidencia = $row [ "Incidencia" ];
 
-  $ser=$row [ "NUM_SERVICIO" ];
+  $num_de_servicio = $row [ "NUM_SERVICIO" ];
 
   ?>
    <!--cada tabla y formulario independiente-->
 
 
+<form action="MODIFICARSERVICIO.php" method="post" class="form-group">
+  <div class="row">
+   
+    <h2 style="text-align:center">Formulario de Servicios</h2>
 
+
+  </div>
+
+  <div class="row">
+    <div class=" col-md-3">Nombre<br>
+      <input  class="form-control"id="tags" name="N_CLIENTE"  class="mayusculas" value="<?PHP echo $cliente ?>" required>
+      <br>
+    </div>
+  <?php //mostrar soporte 
+          mostrar_select(Reorg_arr($soporte,$arr_sop,2),"SOPORTE");
+  ?>  
+    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
+    <div class=" col-md-3">Contacto <br>
+      <input  class="form-control"class="form-control" type="text" name="CONTACTOS" value="<?PHP echo $con1?>" class="mayusculas"/>
+    </div>
+  </div> 
+  <div class="row">
+    <div class=" col-md-3">Hora Inicio<br>
+      <input  class="form-control"class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO"  value="<?PHP echo $hfin1?>"/>
+    </div>
+    <div class=" col-md-3">Hora Fin<br>
+      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?PHP echo $fech1?>" />
+    </div>
+    <div class=" col-md-3">Piezas<br><input  value="<?PHP echo $pie1?>" class="form-control"class="mayusculas" type="text" name="PIEZAS"/></div>
+  <?php 
+  //mostrar tecnico
+      mostrar_select(Reorg_arr($tec1,$arr_Tecnicos_orig,5),"Tecnico");
+  ?>
+    <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"><?PHP echo $tex1?></textarea></div>
+   
+
+  </div>
+
+    <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="Modificar"/></div>
+    <input type="hidden" name="NUM_SERVICIO" value="<?PHP echo $ser1?>">
+
+  </div>
+</form>
 
 
 
