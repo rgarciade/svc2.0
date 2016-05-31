@@ -38,6 +38,9 @@ while( $row = mysqli_fetch_array ( $result )) {
 
   $fecha = $row [ "FECHA" ];
 
+  $tecnico = $row [ "TECNICO" ];
+
+
   $incidencia = $row [ "Incidencia" ];
 
   $num_de_servicio = $row [ "NUM_SERVICIO" ];
@@ -62,30 +65,30 @@ while( $row = mysqli_fetch_array ( $result )) {
   <?php //mostrar soporte 
           mostrar_select(Reorg_arr($soporte,$arr_sop,2),"SOPORTE");
   ?>  
-    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
+    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?PHP echo $fecha ?>" /></div>
     <div class=" col-md-3">Contacto <br>
-      <input  class="form-control"class="form-control" type="text" name="CONTACTOS" value="<?PHP echo $con1?>" class="mayusculas"/>
+      <input  class="form-control"class="form-control" type="text" name="CONTACTOS" value="<?PHP echo $contactos ?>" class="mayusculas"/>
     </div>
   </div> 
   <div class="row">
     <div class=" col-md-3">Hora Inicio<br>
-      <input  class="form-control"class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO"  value="<?PHP echo $hfin1?>"/>
+      <input  class="form-control"class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO"  value="<?PHP echo $hora_inicio?>"/>
     </div>
     <div class=" col-md-3">Hora Fin<br>
-      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?PHP echo $fech1?>" />
+      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
     </div>
-    <div class=" col-md-3">Piezas<br><input  value="<?PHP echo $pie1?>" class="form-control"class="mayusculas" type="text" name="PIEZAS"/></div>
+    <div class=" col-md-3">Piezas<br><input class="form-control"class="mayusculas" type="text" name="PIEZAS"/></div>
   <?php 
   //mostrar tecnico
-      mostrar_select(Reorg_arr($tec1,$arr_Tecnicos_orig,5),"Tecnico");
+      mostrar_select(Reorg_arr($tecnico,$arr_Tecnicos_orig,5),"Tecnico");
   ?>
-    <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"><?PHP echo $tex1?></textarea></div>
+    <div class=" col-md-12"><h4 style="text-align:center">Incidencia</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"><?PHP echo $incidencia?></textarea></div>
    
 
   </div>
 
     <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="Modificar"/></div>
-    <input type="hidden" name="NUM_SERVICIO" value="<?PHP echo $ser1?>">
+    <input type="hidden" name="NUM_SERVICIO" value="<?PHP echo $num_de_servicio?>">
 
   </div>
 </form>
