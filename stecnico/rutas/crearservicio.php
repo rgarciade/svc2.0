@@ -2,15 +2,16 @@
 	<head></head>
 		<body>
 
-		<?PHP
-
-include("../funciones/funciones.php");
+<?php include("../funciones/comun.php");
+      include("../funciones/funciones.php");
 
 		$cliente2=$_POST['N_CLIENTE'];
 		$contactos2=$_POST['CONTACTOS'];
 
 			if( isset($_POST['N_TECNICO'])){
 				$n_tecnico2=$_POST['N_TECNICO'];
+			}else{
+				$n_tecnico2= null;
 			}
 
 		$soporte2=$_POST['SOPORTE'];
@@ -18,20 +19,33 @@ include("../funciones/funciones.php");
 
 			if( isset($_POST['HORA_FIN'])){
 				$hora_fin2=$_POST['HORA_FIN'];
+			}else{
+				$hora_fin2 = null;
 			}
 
 		$fecha2=$_POST['FECHA'];
 
 			if( isset($_POST['TEXTO'])){
 				$tex2=$_POST['TEXTO'];
+			}else{
+				$tex2= null;
 			}
 
 			if( isset($_POST['PIEZAS'])){
 				$piezas2=$_POST['PIEZAS'];
+			}else{
+				$piezas2= null;
 			}
-			$srv=$_POST['srv'];
+
+			if( isset($_POST['ser'])){
+				$ser = $_POST['ser'];
+			}else{
+				$ser = null;
+			}
 			if( isset($_POST['INCIDENCIA'])){
 				$Incidencia2=$_POST['INCIDENCIA'];
+			}else{
+				$Incidencia2= null;
 			}
 
 		include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
@@ -54,7 +68,7 @@ include("../funciones/funciones.php");
 					mysqli_close($conexion);
 					header('location:index.PHP?error=error1');
 
-				}elseif( $srv == 0){
+				}elseif( $ser == null){
 
 						
 					#########crear servico normal

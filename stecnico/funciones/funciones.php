@@ -81,7 +81,9 @@
       	
 //funcion tabla
              function Element_tabla($row,$act){
-              echo "<td><div style='text-transform: uppercase'>";
+              if($act == "Estado"){ echo "<td style='color: red'>"; 
+              }else{echo "<td>";} 
+              echo "<div style='text-transform: uppercase'>";
               echo $row [ "$act" ];
                 $ret=$row [ "$act" ];
               echo "</div></td>";
@@ -141,8 +143,8 @@
           <div>
           <ul class='nav navbar-nav navbar-left'> ";
             activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
-                activ($page,"clientes");   echo "<a href='CLIENTES.PHP'><span>CLIENTE</span></a></li>";
-                activ($page,"busquedas");   echo "<a href='BUSQUEDAS.PHP'><span>BUSQUEDAS</span></a></li>";
+                activ($page,"clientes");   echo "<a href='clientes.PHP'><span>CLIENTE</span></a></li>";
+                activ($page,"busquedas");   echo "<a href='busquedas.PHP'><span>BUSQUEDAS</span></a></li>";
 
                 activ($page,"servicioactivo"); echo"<a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
            
@@ -150,7 +152,7 @@
          echo " </ul>";
 
 
-echo"  </ul>
+  echo"  </ul>
 
                 <ul class='nav navbar-nav navbar-right'> ";
                      if (LOGIN === true){
@@ -158,7 +160,7 @@ echo"  </ul>
                       }
                      
        echo "                 <li>
-                                   <a href='SERVICIOSACTIVOS.php'>
+                                   <a href='serviciosactivos.php'>
                        
                              Servicios activos <span class='badge'>$srva</span>
                        
@@ -270,6 +272,7 @@ echo"  </ul>
             <input class='mayusculas' type='hidden' name='HORA_INICIO' value='<?php echo date('H:i');?> '/>
             <input class='mayusculas' type='hidden' name='FECHA' value=' <?php echo date('Y-m-d');?> ' />
           <input class='mayusculas' type='hidden' name='srv' value='1'>
+          <input class="mayusculas" type="hidden" name="ser" value="activo">
         <td  align='center' colspan='6'><input class='mayusculas' type='submit' value='insertar'/></td>
       </tr>
     </form>
@@ -292,28 +295,24 @@ echo"  </ul>
   
 }
  
- if (LOGIN === true){
-if(isset($_COOKIE['ms'])){
- session_id($_COOKIE['ms']);
-}
-      ###
-      ##  acontinuacion comprueva si existe la sesion
-      ### 
- session_start();
- if(isset($_SESSION['usuario']) and $_SESSION['estado'] == 'valido'  ) 
-{ 
-       // Lo dejas entrar a la pagina 
-} 
-else 
-{   
-      ###
-      ##  si la sesion no existe se redirige a la pagina login
-      ### 
+if (LOGIN === true){
+  if(isset($_COOKIE['ms'])){
+   session_id($_COOKIE['ms']);
+  }
+        ###
+        ##  acontinuacion comprueva si existe la sesion
+        ### 
+  session_start();
+  if(isset($_SESSION['usuario']) and $_SESSION['estado'] == 'valido'  ){ 
+    // Lo dejas entrar a la pagina 
+  }else{   
+    ###
+    ##  si la sesion no existe se redirige a la pagina login
+    ### 
 
-       // Usuario que no se ha logueado 
-
-      header('location:../../index.php');     
-} 
+    // Usuario que no se ha logueado 
+    header('location:../../index.php');     
+  } 
 }
 
 

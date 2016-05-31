@@ -71,55 +71,55 @@
 <div class="FormurarioIndex">
 
 
-<form action="crearservicio.php" method="post" class="form-group">
+  <form action="crearservicio.php" method="post" class="form-group">
 
-   
-    <h2 style="text-align:center">Formulario de Servicios</h2>
-  <div class="row FormurarioIndex">
+     
+      <h2 style="text-align:center">Formulario de Servicios</h2>
+    <div class="row FormurarioIndex">
 
 
-    <div class=" col-md-3">Nombre<br>
-      <input  class="form-control" id="tagss" name="N_CLIENTE"  class="mayusculas" required>
-      <br><?PHP echo $error;?> 
+      <div class=" col-md-3">Nombre<br>
+        <input  class="form-control" id="tagss" name="N_CLIENTE"  class="mayusculas" required>
+        <br><?PHP echo $error;?> 
+      </div>
+      <div class=" col-md-3">Soporte<br>
+        <select class="form-control mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+          <option></option>
+          <option>PRESENCIAL</option>
+          <option>REMOTO</optcion>
+        </select>
+      </div>
+      <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
+      <div class=" col-md-3">Contacto <br>
+        <input  class="form-control" type="text" name="CONTACTOS"  class="mayusculas"/>
+      </div>
+    </div> 
+    <div class="row">
+      <div class=" col-md-3">Hora Inicio<br>
+        <input  class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
+      </div>
+      <div class=" col-md-3">Hora Fin<br>
+        <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
+      </div>
+      <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  /></div>
+      <div class=" col-md-3">Tecnico <br>
+        <select class="form-control mayusculas" name="N_TECNICO" sice=""pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+          <option></option>
+          <option>JORGE</option>
+          <option>DAVID</option>
+          <option>RAUL</option>
+          <option>JOSE</option>
+        </select>
+      </div>  
+      <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"  ></textarea></div>
+     
+
     </div>
-    <div class=" col-md-3">Soporte<br>
-      <select class="form-control mayusculas" name="SOPORTE"pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
-        <option></option>
-        <option>PRESENCIAL</option>
-        <option>REMOTO</optcion>
-      </select>
-    </div>
-    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
-    <div class=" col-md-3">Contacto <br>
-      <input  class="form-control" type="text" name="CONTACTOS"  class="mayusculas"/>
-    </div>
-  </div> 
-  <div class="row">
-    <div class=" col-md-3">Hora Inicio<br>
-      <input  class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO" value="<?php echo date('H:i'); ?>"/>
-    </div>
-    <div class=" col-md-3">Hora Fin<br>
-      <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
-    </div>
-    <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  /></div>
-    <div class=" col-md-3">Tecnico <br>
-      <select class="form-control mayusculas" name="N_TECNICO" sice=""pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
-        <option></option>
-        <option>JORGE</option>
-        <option>DAVID</option>
-        <option>RAUL</option>
-        <option>JOSE</option>
-      </select>
-    </div>  
-    <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"  ></textarea></div>
-   
 
-  </div>
+      <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="insertar"/></div>
 
-    <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="insertar"/></div>
-
-  </div>
-</form>
+    </div>
+  </form>
 </div>
 <div>
 </br>
@@ -137,7 +137,8 @@
           <td >TEXTO</td>  
           <td >PIEZAS</td>
           <td >N_SERVICIO</td>
-            <td></td>
+          <td></td>
+          <td></td>
         </tr>
 
            <!--BUCLE TABLA-->
@@ -178,6 +179,8 @@
               $pie  = Element_tabla($row,"PIEZAS");
 
               $ser  = Element_tabla($row,"NUM_SERVICIO");
+
+              $estado  = Element_tabla($row,"Estado");
 
           echo "<td>";
           ?>
