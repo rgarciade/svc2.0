@@ -3,9 +3,9 @@
 //Gestion de errores
 define('REPORT',true);
 
-//reportespor log, on activo
+//reportes por log, on activo true, false
 define('LOGS',false);
-//ligin log, on activo
+//ligin log, on activo true, false
 define('LOGIN',false);
 
 ?>

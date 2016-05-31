@@ -1,5 +1,5 @@
 <?php
-include("../funciones/constantes.php");
+include("../funciones/config.php");
 
 function gestionderror($type,$message,$file,$line){
 	$date = date("r");

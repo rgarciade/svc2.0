@@ -6,7 +6,7 @@
 ##COMO HE PUESTO EN LEEME ESTE FORMULARIO ESTA BASADO EN UNO QUE TENIA DE JS ASI QUE SOBRAN MUCHAS LINEAS,
 ##PODEIS CREAR EL VUESTRO CON LA UNICA RESTRICCION DE ENVIAR LOS MISMOS DATOS IMPUT A VALIDAR_USUARIO
 ##
-include("stecnico/funciones/constantes.php");
+include("stecnico/funciones/config.php");
 if( isset($_GET['log'])){
   $log=$_GET['log'];
 
