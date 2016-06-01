@@ -82,7 +82,9 @@
 //funcion tabla
              function Element_tabla($row,$act){
               if($act == "Estado"){ echo "<td style='color: red'>"; 
-              }else{echo "<td>";} 
+              }else{
+                echo "<td>";
+              } 
               echo "<div style='text-transform: uppercase'>";
               echo $row [ "$act" ];
                 $ret=$row [ "$act" ];
@@ -133,7 +135,13 @@
         elseif ($count == 0) echo "<option></option>";
   }
 
- function Menu($page,$srva){
+  function mostrarerror(){
+
+             echo "<div style='text-align:center'><img src='../images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'><H2>NO SE ENCONTRARON SERVICIOS</H2></div></div>";
+          
+  }
+
+  function Menu($page,$srva){
 
   echo "<div  class='navbar navbar-default navbar-fixed-top-' role='navigation'>
         <div class='container'>
@@ -142,9 +150,9 @@
           </div>
           <div>
           <ul class='nav navbar-nav navbar-left'> ";
-            activ($page,"index");   echo "<a href='index.PHP'><span>STECNICO</span></a></li>";
-                activ($page,"clientes");   echo "<a href='clientes.PHP'><span>CLIENTE</span></a></li>";
-                activ($page,"busquedas");   echo "<a href='busquedas.PHP'><span>BUSQUEDAS</span></a></li>";
+            activ($page,"index");   echo "<a href='../rutas/index.PHP'><span>STECNICO</span></a></li>";
+                activ($page,"clientes");   echo "<a href='../rutas/clientes.PHP'><span>CLIENTE</span></a></li>";
+                activ($page,"busquedas");   echo "<a href='../rutas/busquedas.PHP'><span>BUSQUEDAS</span></a></li>";
 
                 activ($page,"servicioactivo"); echo"<a  href='#modal1' ><span>NUEVO SERV ACTIVO</span></a></li>";
            
@@ -160,7 +168,7 @@
                       }
                      
        echo "                 <li>
-                                   <a href='serviciosactivos.php'>
+                                   <a href='../rutas/serviciosactivos.php'>
                        
                              Servicios activos <span class='badge'>$srva</span>
                        

@@ -11,13 +11,8 @@
 <!--cerar comun-->
 
     <div style="text-align:center">
-        <?PHP 
-          if( !isset($_GET['as'])){ 
-            echo "<img src='../images/buscar.jpg' width='10%' height='40%'>";
-          }else{
-             echo "<img src='../images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'><H2>NO SE ENCONTRARON SERVICIOS</H2></div>";
-          }
-        ?>
+      <img src='../images/buscar.jpg' width='10%' height='40%'>
+
     </div>
     <br><br><br>
 

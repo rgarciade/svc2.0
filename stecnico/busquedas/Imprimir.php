@@ -1,7 +1,26 @@
 <?php 
-include("cabezerabusquedas.php");
+//array de soporte
 include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
-
+  if (isset($_GET['usu'])) {
+   $usu=$_GET['usu'];
+  }else{
+   $usu="";
+  }
+  if (isset($_GET['fe1'])) {
+   $fe1=$_GET['fe1'];
+  }else{
+   $fe1="";
+  }
+  if (isset($_GET['fe2'])) {
+   $fe2=$_GET['fe2'];
+  }else{
+   $fe2="";
+  }
+  if (isset($_GET['tec'])) {
+   $tec=$_GET['tec']; 
+  }else{
+   $tec="";
+  }
 # ################################### #
 
  #CONSULTA		

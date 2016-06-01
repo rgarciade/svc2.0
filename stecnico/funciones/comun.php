@@ -25,7 +25,7 @@
   <link type="text/css" href="../css/busquedaempresas/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
 
 <!--complementos del modal-->
-	<link type="text/css" href="modal.css " rel="stylesheet" />
+	<link type="text/css" href="../css/modal.css " rel="stylesheet" />
 
 	
 <!--fin complementos modal-->

@@ -13,4 +13,11 @@ define('LOGS',false);
 
 define('LOGIN',false);
 //array de soporte
+
+
+//## exstras
+
+// filas mostradas en el index
+define('FILASINDEX',20);
+
 ?>

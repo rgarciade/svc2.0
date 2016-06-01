@@ -39,13 +39,11 @@
   }else{
    $fe2="";
   }
-  if (isset($_POST['N_TECNICO'])) {
-   $tec=$_POST['N_TECNICO'];
+  if (isset($_POST['Tecnico'])) {
+   $tec=$_POST['Tecnico'];
   }else{
    $tec="";
   }
-
-$tec=$_POST['N_TECNICO'];
 
  
 switch ($acc) {

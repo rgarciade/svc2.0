@@ -147,7 +147,8 @@
      					    	##############################
         						#Efectuamos la consulta SQL####
         						#############################
-        			$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT 20")
+              $FILASINDEX = FILASINDEX;
+        			$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT $FILASINDEX")
         			or die("Error en la consulta SQL");
         						###################################
         						#Mostramos los resultados obtenidos
