@@ -63,7 +63,7 @@ while( $row = mysqli_fetch_array ( $result )) {
       <br>
     </div>
   <?php //mostrar soporte 
-          mostrar_select(Reorg_arr($soporte,$arr_sop,2),"SOPORTE");
+          mostrar_select(Reorg_arr($soporte,$arr_sop,2),"SOPORTE",3);
   ?>  
     <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?PHP echo $fecha ?>" /></div>
     <div class=" col-md-3">Contacto <br>

@@ -117,8 +117,8 @@
     } 
     return $arrfin;
   };
-  function mostrar_select($arr,$name){
-    echo "<div class=' col-md-3'>$name<br>
+  function mostrar_select($arr,$name,$tamaño){
+    echo "<div class=' col-md-$tamaño'>$name<br>
            <select class='form-control' class='mayusculas' name='$name'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
         $count= 0;
         foreach ($arr as $key => $value) {
@@ -273,7 +273,7 @@
             <input class='mayusculas' type='hidden' name='FECHA' value=' <?php echo date('Y-m-d');?> ' />
           <input class='mayusculas' type='hidden' name='srv' value='1'>
           <input class="mayusculas" type="hidden" name="ser" value="activo">
-        <td  align='center' colspan='6'><input class='mayusculas' type='submit' value='insertar'/></td>
+        <td  align='center' colspan='6'><input class='mayusculas btn btn-primary' type='submit' value='insertar'/></td>
       </tr>
     </form>
   </table>

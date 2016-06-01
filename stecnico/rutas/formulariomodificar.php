@@ -43,7 +43,7 @@
       <br>
     </div>
 	<?php	//mostrar soporte 
-	        mostrar_select(Reorg_arr($sop1,$arr_sop,2),"SOPORTE");
+	        mostrar_select(Reorg_arr($sop1,$arr_sop,2),"SOPORTE",3);
 	?>	
     <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
     <div class=" col-md-3">Contacto <br>
@@ -60,7 +60,7 @@
     <div class=" col-md-3">Piezas<br><input  value="<?PHP echo $pie1?>" class="form-control"class="mayusculas" type="text" name="PIEZAS"/></div>
 	<?php 
 	//mostrar tecnico
-	    mostrar_select(Reorg_arr($tec1,$arr_Tecnicos_orig,5),"Tecnico");
+	    mostrar_select(Reorg_arr($tec1,$arr_Tecnicos_orig,5),"Tecnico",3);
 	?>
     <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"><?PHP echo $tex1?></textarea></div>
    
