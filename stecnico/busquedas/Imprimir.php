@@ -43,7 +43,7 @@ header('location:../rutas/BUSQUEDAS.PHP?as=ERROR3');
 #echo "hay registros";
 
 ECHO "IMPRIMIRRRR";
-header("location:../rutas/EXCEL2.PHP?usu=$usu&fe1=$fe1&fe2=$fe2");
+header("location:../funciones/EXCEL2.PHP?usu=$usu&fe1=$fe1&fe2=$fe2");
 }
 
 

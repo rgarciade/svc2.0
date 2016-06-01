@@ -72,7 +72,7 @@
         $srva=0;
 
       while( $row = mysqli_fetch_array ( $result1 )) {
-      	$row [ "NUM_SERVICIO" ];
+        $row [ "NUM_SERVICIO" ];
       	$srva=$srva+1;
       			} 
       			if ($srva > 7){
@@ -80,25 +80,33 @@
       			}	
       	
 //funcion tabla
-             function Element_tabla($row,$act){
-              if($act == "Estado"){ echo "<td style='color: red'>"; 
-              }else{
-                echo "<td>";
-              } 
-              echo "<div style='text-transform: uppercase'>";
-              echo $row [ "$act" ];
-                $ret=$row [ "$act" ];
-              echo "</div></td>";
-            return $ret;
-            } 	
-//funciones (formulario modificar)
-  function espacios($numero){
-    for ($i=0; $i < $numero; $i++) { 
-      echo "&nbsp;";
-    }
-    
+function Element_tabla($row,$act){
+  if($act == "Estado"){ 
+    echo "<td style='color: red'>"; 
+  }else{
+    echo "<td>";
+  } 
+  echo "<div style='text-transform: uppercase'>";
+  echo $row [ "$act" ];
+  $ret=$row [ "$act" ];
+  echo "</div></td>";
+  return $ret;
+} 	
+function activ($page,$href){
+  if ($page == $href) {
+    echo "<li class='active'>";
+  }else{
+    echo "<li>";  
   }
-  function Reorg_arr($ori,$arr,$length){
+}
+//funciones (formulario modificar)
+function espacios($numero){
+  for ($i=0; $i < $numero; $i++) { 
+    echo "&nbsp;";
+  }
+  
+}
+function Reorg_arr($ori,$arr,$length){
     
     $contador    = 0;
     $controlador = 0;
@@ -118,8 +126,8 @@
         }
     } 
     return $arrfin;
-  };
-  function mostrar_select($arr,$name,$tamaño){
+};
+function mostrar_select($arr,$name,$tamaño){
     echo "<div class=' col-md-$tamaño'>$name<br>
            <select class='form-control' class='mayusculas' name='$name'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
         $count= 0;
@@ -129,19 +137,28 @@
         }
     echo"   </select>
           </div>";
-            }
-  function option($value,$count){
-      if ($value != "") echo "<option>$value</option>";
-        elseif ($count == 0) echo "<option></option>";
-  }
+}
+function option($value,$count){
+    if ($value != "") echo "<option>$value</option>";
+      elseif ($count == 0) echo "<option></option>";
+}
 
-  function mostrarerror(){
+function mostrarerror(){
 
-             echo "<div style='text-align:center'><img src='../images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'><H2>NO SE ENCONTRARON SERVICIOS</H2></div></div>";
-          
-  }
+          echo "<div style='text-align:center'>
+                  <img src='../images/ERRORES/ERROR3.jpg' width='5%' height='25%'><div style='color:#00FF00;'>
+                    <H2>NO SE ENCONTRARON SERVICIOS</H2>
+                <div style='text-align:center'>
+                  <br><a href='../rutas/busquedas.PHP'>
+                  <button class='mayusculas btn btn-primary glyphicon glyphicon-triangle-left' type='submit' >
+                    &#8195&#8195Volver&#8195&#8195
+                  </button></a>
+                </div>
+                </div>";
+        
+}
 
-  function Menu($page,$srva){
+function Menu($page,$srva){
 
   echo "<div  class='navbar navbar-default navbar-fixed-top-' role='navigation'>
         <div class='container'>
@@ -293,16 +310,7 @@
     //echo "<a href='SERVICIOSACTIVOS.php'><img  src='images/srvactivos/"; echo $srva; echo ".png' width='120px' height='50px'></a></ul>";
          
 }
- function activ($page,$href){
-  if ($page == $href) {
-    echo "<li class='active'>";
-  }else{
-    echo "<li>";  
-  }
 
-  
-}
- 
 if (LOGIN === true){
   if(isset($_COOKIE['ms'])){
    session_id($_COOKIE['ms']);
@@ -323,5 +331,4 @@ if (LOGIN === true){
   } 
 }
 
-
-       ?>
+?>

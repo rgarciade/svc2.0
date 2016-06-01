@@ -52,7 +52,7 @@ while( $row = mysqli_fetch_array ( $result )) {
 <form action="MODIFICARSERVICIO.php" method="post" class="form-group">
   <div class="row">
    
-    <h2 style="text-align:center">Formulario de Servicios</h2>
+    <h2 style="text-align:center">Servicios Activos</h2>
 
 
   </div>
@@ -80,7 +80,7 @@ while( $row = mysqli_fetch_array ( $result )) {
     <div class=" col-md-3">Piezas<br><input class="form-control"class="mayusculas" type="text" name="PIEZAS"/></div>
   <?php 
   //mostrar tecnico
-      mostrar_select(Reorg_arr($tecnico,$arr_Tecnicos_orig,5),"Tecnico");
+      mostrar_select(Reorg_arr($tecnico,$arr_Tecnicos_orig,5),"Tecnico",3);
   ?>
     <div class=" col-md-12"><h4 style="text-align:center">Incidencia</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"><?PHP echo $incidencia?></textarea></div>
    
