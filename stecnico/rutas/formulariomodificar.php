@@ -27,9 +27,15 @@
 
 
 ?>
-
-
-<form action="MODIFICARSERVICIO.php" method="post" class="form-group">
+<script>
+ function onDelete(){
+  document.formularioborrar.submit();
+ };
+ function onModifi(){
+  document.formulariomodificar.submit();
+ };
+</script >
+<form action="MODIFICARSERVICIO.php" method="post" class="form-group" name="formulariomodificar">
   <div class="row">
    
     <h2 style="text-align:center">Formulario de Servicios</h2>
@@ -69,8 +75,23 @@
     <input type="hidden" name="NUM_SERVICIO" value="<?PHP echo $ser1?>">
     
               <input class="mayusculas" type="hidden" name="estado" value="<?PHP echo $estado ?>">
-    <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="Modificar"/></div>
-
-
   </div>
 </form>
+
+          <div style="text-align:center">
+            <form action="MODIFICARSERVICIO.php" method="POST" name="formularioborrar">
+              <input class="mayusculas" type="hidden" name="borrar" value="true">    
+              <input class="mayusculas" type="hidden" name="NUM_SERVICIO" value="<?PHP echo $ser1?>">               
+            </form>
+          </div>
+
+    <div style="text-align:center">
+      <br>
+        <button class="mayusculas btn btn-primary " onclick="onModifi()">Modificar</button>  
+        <?php
+          if (BORRADO === true && NIVEL >= NIVELBORRAR ) {
+          echo "<button class='mayusculas btn btn-danger ' onclick='onDelete()'><i class='glyphicon glyphicon-trash'></i></input></button>";
+          }
+        ?>
+          
+    </div>
