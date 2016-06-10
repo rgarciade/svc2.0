@@ -20,8 +20,7 @@ define('LOGIN',false);
 // filas mostradas en el index
 define('FILASINDEX',20);
 // BORRAR SERVICIOS
-define('BORRADO',true);
 	//nivel minimo de borrado, si no hay login y quieres borrar poner nivel de borrado a 0
-	//nivel 1 es admin nivel 0 current user
+	//nivel 0 cualquier usuario, nivel 1 solo admin admin,2 no permite borrar a nadie
 define('NIVELBORRAR',"0");
 ?>

@@ -89,7 +89,7 @@
       <br>
         <button class="mayusculas btn btn-primary " onclick="onModifi()">Modificar</button>  
         <?php
-          if (BORRADO === true && NIVEL >= NIVELBORRAR ) {
+          if ( NIVEL >= NIVELBORRAR ) {
           echo "<button class='mayusculas btn btn-danger ' onclick='onDelete()'><i class='glyphicon glyphicon-trash'></i></input></button>";
           }
         ?>
