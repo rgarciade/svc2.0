@@ -45,7 +45,7 @@
 	<?php	//mostrar soporte 
 	        mostrar_select(Reorg_arr($sop1,$arr_sop,2),"SOPORTE",3);
 	?>	
-    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo date('Y-m-d'); ?>" /></div>
+    <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA" value="<?php echo $fech1 ?>" /></div>
     <div class=" col-md-3">Contacto <br>
       <input  class="form-control"class="form-control" type="text" name="CONTACTOS" value="<?PHP echo $con1?>" class="mayusculas"/>
     </div>
@@ -55,7 +55,7 @@
       <input  class="form-control"class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO"  value="<?PHP echo $hfin1?>"/>
     </div>
     <div class=" col-md-3">Hora Fin<br>
-      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?PHP echo $fech1?>" />
+      <input  class="form-control" class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?PHP echo $hfin1>" />
     </div>
     <div class=" col-md-3">Piezas<br><input  value="<?PHP echo $pie1?>" class="form-control"class="mayusculas" type="text" name="PIEZAS"/></div>
 	<?php 
