@@ -179,18 +179,21 @@ function Menu($page,$srva){
 
   echo"  </ul>
 
-                <ul class='nav navbar-nav navbar-right'> ";
-                     if (LOGIN === true){
-                        echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
-                      }
-                     
-       echo "                 <li>
+                <ul class='nav navbar-nav navbar-right'>                   
+                       <li>
                                    <a href='../rutas/serviciosactivos.php'>
                        
                              Servicios activos <span class='badge'>$srva</span>
                        
                       </a>
                   </li>
+                  ";
+                  if (LOGIN === true){
+                        echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
+                      }
+                  if (NIVEL == 1 || LOGIN === false){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
+  
+      echo"            
                 </ul>
               </div>
             </nav>
