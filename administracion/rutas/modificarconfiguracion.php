@@ -61,7 +61,6 @@ fwrite($file, "define('LOGS',$Mlog);" . PHP_EOL);
 fwrite($file, "//#### LOGIN" . PHP_EOL);
 fwrite($file, "//login log, on activo true, false" . PHP_EOL);
 fwrite($file, "define('LOGIN',$Mlogin);" . PHP_EOL);
-
 fwrite($file, "//array de soporte" . PHP_EOL);
 fwrite($file, "//## exstraso" . PHP_EOL);
 fwrite($file, "// filas mostradas en el index" . PHP_EOL);
