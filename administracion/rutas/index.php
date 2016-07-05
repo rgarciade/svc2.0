@@ -37,7 +37,7 @@ if (NIVEL == 1) {
               <option>Desactivado</option>
           </select> 
         </div>
-        <div class=" col-md-3">Nivel borrado<br>
+        <div class=" col-md-2">Nivel borrado<br>
           <select name="nivel" sice="" class='form-control'>
               <option></option>
               <option>Nadie</option>
@@ -45,9 +45,17 @@ if (NIVEL == 1) {
               <option>Solo admin</option>
           </select> 
         </div>
-        <div class=" col-md-3">Filas mostradas index<br>
+
+        <div class=" col-md-2">Filas mostradas index<br>
 			<input  class="form-control"class="form-control" type="number" name="filasindex"  value=""/>
      	</div>
+       <div class=" col-md-2">Control de acceso<br>
+          <select name="acceso" sice="" class='form-control'>
+              <option></option>
+              <option>Activado</option>
+              <option>Desactivado</option>
+          </select> 
+        </div>
       </div>
       <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="&#8195&#8195Modificar&#8195&#8195"/></div>
     </form>
