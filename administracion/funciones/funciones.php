@@ -177,7 +177,7 @@ function Menu($page,$srva){
       echo "</ul>
       
             </div>
-        </div>
+        </div></div>
     ";
 }
 
@@ -190,7 +190,7 @@ if (LOGIN === true){
         ### 
   session_start();
   if(isset($_SESSION['usuario']) and $_SESSION['estado'] == 'valido'  ){ 
-    // Lo dejas entrar a la pagina 
+    define('NIVEL',$_SESSION['nivel']);
   }else{   
     ###
     ##  si la sesion no existe se redirige a la pagina login
@@ -199,6 +199,8 @@ if (LOGIN === true){
     // Usuario que no se ha logueado 
     header('location:../../index.php');     
   } 
+}else{
+   define('NIVEL','0');
 }
 
 ?>
