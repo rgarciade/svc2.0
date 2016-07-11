@@ -18,12 +18,22 @@ function GestionConf($var,$const){
 				break;
 		}
 	}
+	if ($var == "relog"){
+		$a = $_POST[$var];
+		
+		echo $var;
+		echo "<br>";
+		echo $a;
+		echo "<br>";
+		echo $const;
+	}
 	return $Vvar;
 }
 
 $Mlogin		= GestionConf("acceso",LOGIN);
 $Mreport	= GestionConf("reports",REPORT);
 $Mlog 		= GestionConf("logs",LOGS );
+$Mrelog		= GestionConf("relog",RECHAGE );
 
 if( isset($_POST['nivel'])){
 	$nivel=$_POST['nivel'];
@@ -50,6 +60,13 @@ if( isset($_POST['filasindex'])){
 		$Mfilas = FILASINDEX;
 	}
 }
+if( isset($_POST['tiempoindex'])){
+	$Mtime=$_POST['tiempoindex'];
+	if ($Mtime == "") {
+		$Mtime = RELOGTIME;
+	}
+}
+
 
 $file = fopen("../../stecnico/funciones/config.php", "w");
 fwrite($file, "<?php" . PHP_EOL);
@@ -69,8 +86,10 @@ fwrite($file, "// BORRAR SERVICIOS" . PHP_EOL);
 fwrite($file, "	//nivel minimo de borrado, si no hay login y quieres borrar poner nivel de borrado a 0" . PHP_EOL);
 fwrite($file, "	//nivel 0 cualquier usuario, nivel 1 solo admin admin,2 no permite borrar a nadie" . PHP_EOL);
 fwrite($file, "define('NIVELBORRAR',$Mnivel);" . PHP_EOL);
+fwrite($file, "//" . PHP_EOL);
+fwrite($file, "define('RELOGTIME',$Mtime);" . PHP_EOL);
+fwrite($file, "define('RECHAGE',$Mrelog);" . PHP_EOL);
 fwrite($file, "?>" . PHP_EOL);
 fclose($file);
 header('location:../../stecnico/rutas');
-
 ?>

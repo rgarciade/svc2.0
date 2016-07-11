@@ -1,8 +1,16 @@
 
-<meta http-equiv="refresh" content="60">
 <?php include("../funciones/comun.php");
       include("../funciones/funciones.php");
+if (RECHAGE == true) {
+$RELOGTIME = RELOGTIME
+?> 
+<meta http-equiv='refresh' content='<?php echo $RELOGTIME ?>'>
+<?php
+}
+
       Menu("index",$srva);
+
+
 ?>
 <div name="formula predictiva">
       <?php 

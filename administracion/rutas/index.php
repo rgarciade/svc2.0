@@ -5,6 +5,7 @@
 if (LOGIN == 0){echo "usuario comun<br>";}
 if (REPORT == true ){echo "Reports = activados <br>";}else{echo "Reports = desactivados <br>";};
 if (LOGS == true ){echo "logs = activados <br>";}else{echo "Logs = desactivados <br>";};
+if ( RECHAGE == true ){echo "RECARGA = activada <br>";}else{echo "RECARGA = desactivada <br>";};
 echo "FILAS DEL INDEX=";echo ""+FILASINDEX;echo "<br>";
 echo "NIVEL BORRADO=";
 	if (NIVELBORRAR == 0){ echo "cualquier usuario";}
@@ -52,6 +53,17 @@ if (NIVEL == 1) {
               <option>Activado</option>
               <option>Desactivado</option>
           </select> 
+        </div>
+      </div>
+        <div class=" col-md-2" >Relog index<br>
+          <select name="relog" sice="" class='form-control'>
+              <option></option>
+              <option>Activado</option>
+              <option>Desactivado</option>
+          </select> 
+        </div>
+        <div class=" col-md-2">Tiempo Relog index<br>
+          <input  class="form-control"class="form-control" type="number" name="tiempoindex"  value=""/>
         </div>
       </div>
       <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="&#8195&#8195Modificar&#8195&#8195"/></div>

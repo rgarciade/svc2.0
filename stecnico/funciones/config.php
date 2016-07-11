@@ -10,9 +10,12 @@ define('LOGIN',false);
 //array de soporte
 //## exstraso
 // filas mostradas en el index
-define('FILASINDEX',15);
+define('FILASINDEX',5);
 // BORRAR SERVICIOS
 	//nivel minimo de borrado, si no hay login y quieres borrar poner nivel de borrado a 0
 	//nivel 0 cualquier usuario, nivel 1 solo admin admin,2 no permite borrar a nadie
 define('NIVELBORRAR',0);
+//
+define('RELOGTIME',60);
+define('RECHAGE',false);
 ?>
