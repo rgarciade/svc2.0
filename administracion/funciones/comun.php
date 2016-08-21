@@ -27,6 +27,7 @@
 <!--complementos del modal-->
 	<link type="text/css" href="../css/modal.css " rel="stylesheet" />
 
+
 	
 <!--fin complementos modal-->
 	

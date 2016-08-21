@@ -17,6 +17,7 @@ if (REPORT == true ){paneles("Reports", "activados");}else{paneles("Reports", "d
 if (LOGS == true ){paneles("Logs", "activados");}else{paneles("Logs", "desactivados");};
 
 
+
 paneles("Filas index", ""+FILASINDEX);
 $nivelborrado = "undefinid";
 	if (NIVELBORRAR == 0){ $nivelborrado = "cualquier usuario";}
@@ -24,6 +25,9 @@ $nivelborrado = "undefinid";
 	if (NIVELBORRAR == 2){ $nivelborrado = "nadie puede borrar";}
 
 paneles("Nivel borrado", $nivelborrado);
+
+
+
 
 
 if (NIVEL == 1) {
@@ -66,6 +70,17 @@ echo "<div class='col-md-1'></div>";
               <option>Activado</option>
               <option>Desactivado</option>
           </select> 
+        </div>
+      </div>
+        <div class=" col-md-2" >Relog index<br>
+          <select name="relog" sice="" class='form-control'>
+              <option></option>
+              <option>Activado</option>
+              <option>Desactivado</option>
+          </select> 
+        </div>
+        <div class=" col-md-2">Tiempo Relog index<br>
+          <input  class="form-control"class="form-control" type="number" name="tiempoindex"  value=""/>
         </div>
       </div>
       <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="&#8195&#8195Modificar&#8195&#8195"/></div>

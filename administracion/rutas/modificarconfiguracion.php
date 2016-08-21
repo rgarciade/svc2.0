@@ -44,6 +44,7 @@ if( isset($_POST['nivel'])){
 	}
 }
 
+
 if( isset($_POST['filasindex'])){
 	$Mfilas=$_POST['filasindex'];
 	if ($Mfilas == "") {
