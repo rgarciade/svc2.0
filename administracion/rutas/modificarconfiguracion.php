@@ -71,6 +71,6 @@ fwrite($file, "	//nivel 0 cualquier usuario, nivel 1 solo admin admin,2 no permi
 fwrite($file, "define('NIVELBORRAR',$Mnivel);" . PHP_EOL);
 fwrite($file, "?>" . PHP_EOL);
 fclose($file);
-header('location:../../stecnico/rutas');
+header('location:./');
 
 ?>

@@ -42,6 +42,5 @@
 
 include("../../stecnico/errores/errores.php");
 set_error_handler("gestionderror");
-
-if (NIVEL == 1 && LOGIN === true){header('location:../../');}
+if (LOGIN === true  && NIVEL === 1 ){header('location:../../');}
 ?>

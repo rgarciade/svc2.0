@@ -168,8 +168,9 @@ function Menu($page,$srva){
             <div>
             <ul class='nav navbar-nav navbar-inverse navbar-left'> ";
               activ($page,"index");   echo "<a href='../rutas/index.PHP'><span>Administracion</span></a></li>";
-                  activ($page,"clientes");   echo "<a href='../rutas/clientes.PHP'><span>menu 2</span></a></li>";
-                  activ($page,"busquedas");   echo "<a href='../rutas/busquedas.PHP'><span>menu 3</span></a></li>";
+              if (LOGIN === true  && NIVEL == 1 ){
+                activ($page,"usuarios");   echo "<a href='../rutas/usuarios.PHP'><span>usuarios</span></a></li>";
+              }  
 
       echo "</ul>";
       echo "<ul class='nav navbar-nav navbar-right'> ";

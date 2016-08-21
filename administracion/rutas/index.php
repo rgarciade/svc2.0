@@ -1,23 +1,37 @@
 <?php include("../funciones/comun.php");
       include("../funciones/funciones.php");
       Menu("index",$srva);
+function paneles($titulo, $body){
+  echo "<div class='col-md-2'>
+        <div class='panel panel-primary'>
+            <div class='panel-heading'>$titulo</div>
+            <div class='panel-body'>
+              $body
+            </div>
+          </div>
+        </div>";
+}
+echo "<div class='col-md-1'></div>";
+//if (LOGIN == 0){echo "usuario comun<br>";}
+if (REPORT == true ){paneles("Reports", "activados");}else{paneles("Reports", "desactivados");};
+if (LOGS == true ){paneles("Logs", "activados");}else{paneles("Logs", "desactivados");};
 
-if (LOGIN == 0){echo "usuario comun<br>";}
-if (REPORT == true ){echo "Reports = activados <br>";}else{echo "Reports = desactivados <br>";};
-if (LOGS == true ){echo "logs = activados <br>";}else{echo "Logs = desactivados <br>";};
-echo "FILAS DEL INDEX=";echo ""+FILASINDEX;echo "<br>";
-echo "NIVEL BORRADO=";
-	if (NIVELBORRAR == 0){ echo "cualquier usuario";}
-	if (NIVELBORRAR == 1){ echo "solo admin";}
-	if (NIVELBORRAR == 2){ echo "nadie puede borrar";}
-echo "<br>";
+
+paneles("Filas index", ""+FILASINDEX);
+$nivelborrado = "undefinid";
+	if (NIVELBORRAR == 0){ $nivelborrado = "cualquier usuario";}
+	if (NIVELBORRAR == 1){ $nivelborrado = "solo admin";}
+	if (NIVELBORRAR == 2){ $nivelborrado = "nadie puede borrar";}
+
+paneles("Nivel borrado", $nivelborrado);
 
 
 if (NIVEL == 1) {
-	echo "ADMIN";
+	paneles("Tipo de  Usuario", "ADMIN");
 }else{
-	echo "NORMAL";
+	paneles("Tipo de  Usuario", "NORMAL");
 }
+echo "<div class='col-md-1'></div>";
   ?>  <form action="modificarconfiguracion.php" method="post" accept-charset="utf-8" class="form-group">
       <div class="row FormurarioIndex">
         <div class=" col-md-3">Reports<br>
