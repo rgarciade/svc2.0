@@ -15,5 +15,4 @@ define('FILASINDEX',17);
 	//nivel minimo de borrado, si no hay login y quieres borrar poner nivel de borrado a 0
 	//nivel 0 cualquier usuario, nivel 1 solo admin admin,2 no permite borrar a nadie
 define('NIVELBORRAR',0);
-
 ?>
