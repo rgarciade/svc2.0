@@ -191,7 +191,7 @@ function Menu($page,$srva){
                   if (LOGIN === true){
                         echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
                       }
-                  if (NIVELBORRAR == 1 || LOGIN === true){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
+                  if (NIVELBORRAR == 1 || LOGIN === false){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
       echo"            
                 </ul>
               </div>
