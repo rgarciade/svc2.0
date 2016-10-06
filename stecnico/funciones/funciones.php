@@ -191,7 +191,7 @@ function Menu($page,$srva){
                   if (LOGIN === true){
                         echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
                       }
-                  if (NIVELBORRAR == 1 || LOGIN === false){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
+                  if (NIVELBORRAR == 1 || LOGIN === true){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
       echo"            
                 </ul>
               </div>
@@ -209,6 +209,7 @@ function Menu($page,$srva){
 
       $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
       $arr_sop = array("PRESENCIAL","REMOTO");  
+
 
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
       $query = mysqli_query($conexion,$con);
