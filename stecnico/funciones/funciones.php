@@ -41,16 +41,16 @@
 
   <?php
 
-     #comprovamos servicios activos actuales
+   #sacar tecnicos
     $resulttecnicos = mysqli_query ($conexion,"SELECT * FROM tecnicos")
           or die("Error en la consulta SQL");
     $countarr = 0;
 
-  while( $row = mysqli_fetch_array ( $resulttecnicos )) {
-    $arr_Tecnicos_orig[$count] = $row [ "nombre_tecnico" ];
+    while( $row = mysqli_fetch_array ( $resulttecnicos )) {
+      $arr_Tecnicos_orig[$count] = $row [ "nombre_tecnico" ];
 
     $count++;
-  }
+    }
   ## zona horaria por defecto
   date_default_timezone_set("Europe/Madrid");
   ?>
