@@ -19,7 +19,7 @@ $RELOGTIME = RELOGTIME
 
         //arrays
 
-      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+      //$arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
       $arr_sop = array("PRESENCIAL","REMOTO");  
 
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
@@ -27,28 +27,7 @@ $RELOGTIME = RELOGTIME
         ?>
           
           <script type="text/javascript">
-                function abrirVentana(url) {
-                  window.open(url, "nuevo", "directories=no,location=no, menubar=no, scrollbars=yes, statusbar=no, tittlebar=no, width=809, height=250");
-                
-                }
-                 $(function() {
-              
-                <?php
-                  
-                  while($row= mysqli_fetch_array($query)) {//se reciben los valores y se almacenan en un arreglo
-                    $elementos[]= '"'.$row['cliente'].'"';
-                  
-                  }
-                  $arreglo= implode(", ", $elementos);//junta los valores del array en una sola cadena de texto
 
-                ?>  
-                  var availableTagss=new Array(<?php echo $arreglo; ?>);//imprime el arreglo dentro de un array de javascript
-                      
-                  $( "#tagss" ).autocomplete({
-                    source: availableTagss
-                  });
-                  
-                });
           </script>
   </div>
     <!--cerrar cssmenu-->
@@ -87,7 +66,7 @@ $RELOGTIME = RELOGTIME
 
 
       <div class=" col-md-3">Nombre<br>
-        <input  class="form-control" id="tagss" name="N_CLIENTE"  class="mayusculas" required>
+        <input  class="form-control" id="tags" name="N_CLIENTE"  class="mayusculas" required>
         <br><?PHP echo $error;?> 
       </div>
       <div class=" col-md-3">Soporte<br>
@@ -110,14 +89,7 @@ $RELOGTIME = RELOGTIME
         <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN" value="<?php echo date('H:i'); ?>" />
       </div>
       <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  /></div>
-      <div class=" col-md-3">Tecnico <br>
-        <select class="form-control mayusculas" name="N_TECNICO" sice=""pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
-          <option></option>
-          <option>JORGE</option>
-          <option>DAVID</option>
-          <option>RAUL</option>
-          <option>JOSE</option>
-        </select>
+      <?php mostrar_select($arr_Tecnicos_orig,"Tecnico",3);?>
       </div>  
       <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="TEXTO"  ></textarea></div>
      

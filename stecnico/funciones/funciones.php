@@ -5,7 +5,7 @@
 
         //arrays
 
-      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+      //$arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
       $arr_sop = array("PRESENCIAL","REMOTO");  
 
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
@@ -40,6 +40,17 @@
   <!--cerrar formula predictiva-->
 
   <?php
+
+     #comprovamos servicios activos actuales
+    $resulttecnicos = mysqli_query ($conexion,"SELECT * FROM tecnicos")
+          or die("Error en la consulta SQL");
+    $countarr = 0;
+
+  while( $row = mysqli_fetch_array ( $resulttecnicos )) {
+    $arr_Tecnicos_orig[$count] = $row [ "nombre_tecnico" ];
+
+    $count++;
+  }
   ## zona horaria por defecto
   date_default_timezone_set("Europe/Madrid");
   ?>
@@ -207,7 +218,7 @@ function Menu($page,$srva){
 
         //arrays
 
-      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+     // $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
       $arr_sop = array("PRESENCIAL","REMOTO");  
 
 
