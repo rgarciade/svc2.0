@@ -72,7 +72,9 @@ echo "<div class='col-md-1'></div>";
           </select> 
         </div>
       </div>
-        <div class=" col-md-2" >Relog index<br>
+        <div class=" col-md-3">   
+       </div>
+        <div class=" col-md-3" >Relog index<br>
           <select name="relog" sice="" class='form-control'>
               <option></option>
               <option>Activado</option>
@@ -82,7 +84,9 @@ echo "<div class='col-md-1'></div>";
         <div class=" col-md-2">Tiempo Relog index<br>
           <input  class="form-control"class="form-control" type="number" name="tiempoindex"  value=""/>
         </div>
-      </div>
+                <div class=" col-md-5">   
+       </div>
+      </div></br></br>
       <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="submit" value="&#8195&#8195Modificar&#8195&#8195"/></div>
     </form>
 

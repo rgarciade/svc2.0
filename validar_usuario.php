@@ -13,7 +13,7 @@
 		#contraseña base de datos	
 			$cbd="123456";
 		#nombre base de datos
-			$nbd="microtex";
+			$nbd="servicios";
 		#destino despues de validar
 			$ddv="location:./stecnico/rutas";
 		
