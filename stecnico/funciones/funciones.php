@@ -41,11 +41,11 @@
 
   <?php
 
-   #sacar tecnicos
+   #sacar tecnicos/*
     $resulttecnicos = mysqli_query ($conexion,"SELECT * FROM tecnicos")
           or die("Error en la consulta SQL");
-    $countarr = 0;
-
+    $count = 1;
+    $arr_Tecnicos_orig[0]= "";
     while( $row = mysqli_fetch_array ( $resulttecnicos )) {
       $arr_Tecnicos_orig[$count] = $row [ "nombre_tecnico" ];
 
@@ -202,7 +202,8 @@ function Menu($page,$srva){
                   if (LOGIN === true){
                         echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
                       }
-                  if (NIVELBORRAR == 1 || LOGIN === true){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
+                      //echo "nievel=".NIVEL."</br>login=".LOGIN;
+                  if (NIVEL == 1 || LOGIN === false){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
       echo"            
                 </ul>
               </div>
