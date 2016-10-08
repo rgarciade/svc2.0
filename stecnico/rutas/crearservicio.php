@@ -74,20 +74,27 @@
 					#########crear servico normal
 					$crea = mysqli_query ($conexion,"INSERT INTO `servicios`(`N_CLIENTE`, `CONTACTOS`, `TECNICO`, `SOPORTE`, `HORA_INICIO`,
 					 `HORA_FIN`, `FECHA`, `TEXTO`, `PIEZAS`) VALUES ('$cliente2','$contactos2','$n_tecnico2','$soporte2','$hora_inicio2','$hora_fin2','$fecha2','$tex2','$piezas2')")
-					or die("Error en la consulta SQL");
+					or die("Error en la consulta SQL2");
 					header('location:index.php');
 				}else{
-						
+						echo $cliente2."</br>";
+echo $contactos2."</br>";
+echo $soporte2."</br>";
+echo $hora_inicio2."</br>";
+echo $fecha2."</br>";
+echo $Incidencia2."</br>";
 					#########crear servicio activo
 					$hora=date('H:i'); 
 					$fech=date('Y-m-d');
 					header('location:index.php');
 					
-					$crea = mysqli_query ($conexion,"INSERT INTO `servicios`(`N_CLIENTE`, `CONTACTOS`,`SOPORTE`, `HORA_INICIO`,
-					`FECHA`,`Incidencia`,`Estado`) VALUES ('$cliente2','$contactos2','$soporte2','$hora_inicio2','$fecha2','$Incidencia2','activo')")
-					or die("Error en la consulta SQL");
-					echo "<script languaje='javascript' type='text/javascript'>window.close();</script>";
+					$crea = mysqli_query ($conexion,"INSERT INTO `servicios`(`N_CLIENTE`, `CONTACTOS`, `SOPORTE`, `HORA_INICIO`,
+					 `HORA_FIN`, `FECHA`, `Estado`) VALUES ('$cliente2','$contactos2','$soporte2','$hora_inicio2','$hora_fin2','$fecha2', 'activo')")
+					or die("Error en la consulta SQL2");
+
+					//echo "<script languaje='javascript' type='text/javascript'>window.close();</script>";
 					# ################################### #
+
 
 					#Cerramos la conexión con la base de datos
 					

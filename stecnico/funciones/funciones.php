@@ -5,7 +5,7 @@
 
         //arrays
 
-      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+      //$arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
       $arr_sop = array("PRESENCIAL","REMOTO");  
 
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
@@ -40,6 +40,17 @@
   <!--cerrar formula predictiva-->
 
   <?php
+
+   #sacar tecnicos/*
+    $resulttecnicos = mysqli_query ($conexion,"SELECT * FROM tecnicos")
+          or die("Error en la consulta SQL");
+    $count = 1;
+    $arr_Tecnicos_orig[0]= "";
+    while( $row = mysqli_fetch_array ( $resulttecnicos )) {
+      $arr_Tecnicos_orig[$count] = $row [ "nombre_tecnico" ];
+
+    $count++;
+    }
   ## zona horaria por defecto
   date_default_timezone_set("Europe/Madrid");
   ?>
@@ -179,18 +190,21 @@ function Menu($page,$srva){
 
   echo"  </ul>
 
-                <ul class='nav navbar-nav navbar-right'> ";
-                     if (LOGIN === true){
-                        echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
-                      }
-                     
-       echo "                 <li>
+                <ul class='nav navbar-nav navbar-right'>                   
+                       <li>
                                    <a href='../rutas/serviciosactivos.php'>
                        
                              Servicios activos <span class='badge'>$srva</span>
                        
                       </a>
                   </li>
+                  ";
+                  if (LOGIN === true){
+                        echo "<li><a  href='../funciones/destruir.php'><span>cerrar sesion</span></a></li>"; 
+                      }
+                      //echo "nievel=".NIVEL."</br>login=".LOGIN;
+                  if (NIVEL == 1 || LOGIN === false){echo "<li><a href='../../administracion/rutas' class='glyphicon glyphicon-cog'></a></li>";}
+      echo"            
                 </ul>
               </div>
             </nav>
@@ -205,8 +219,9 @@ function Menu($page,$srva){
 
         //arrays
 
-      $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
+     // $arr_Tecnicos_orig = array("RAUL", "JORGE", "DAVID", "JOSE","");
       $arr_sop = array("PRESENCIAL","REMOTO");  
+
 
       $con = "select cliente from clientes";//consulta para seleccionar las palabras a buscar, esto va a depender de su base de datos
       $query = mysqli_query($conexion,$con);
@@ -320,7 +335,7 @@ if (LOGIN === true){
         ### 
   session_start();
   if(isset($_SESSION['usuario']) and $_SESSION['estado'] == 'valido'  ){ 
-    // Lo dejas entrar a la pagina 
+    define('NIVEL',$_SESSION['nivel']);
   }else{   
     ###
     ##  si la sesion no existe se redirige a la pagina login
@@ -329,6 +344,8 @@ if (LOGIN === true){
     // Usuario que no se ha logueado 
     header('location:../../index.php');     
   } 
+}else{
+   define('NIVEL','0');
 }
 
 ?>

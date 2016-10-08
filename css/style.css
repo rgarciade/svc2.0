@@ -72,6 +72,16 @@ form{
   padding:6% 4%;
 }
 
+input[type="text"],input[type="text"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
 input[type="email"],input[type="password"]{
   width:92%;
   background:#fff;

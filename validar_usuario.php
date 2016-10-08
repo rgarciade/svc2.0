@@ -13,15 +13,15 @@
 		#contraseña base de datos	
 			$cbd="123456";
 		#nombre base de datos
-			$nbd="microtex";
+			$nbd="servicios";
 		#destino despues de validar
 			$ddv="location:./stecnico/rutas";
 		
 		
   # variables obtenidas en el formulario del index y pasadas por post
 	
-if( isset($_POST['Email'])){
-	$usu=$_POST['Email'];
+if( isset($_POST['user'])){
+	$usu=$_POST['user'];
 
 }else{
 	$usu="";
@@ -77,8 +77,7 @@ if ($numero_filas == 0 ) {
 	while( $row = mysqli_fetch_array ( $consulta1 )) {
 
 		#TIPO ES EL VALOR DEL NIVEL DEL USUARIO 0 GENERICO, 1 ADMIN EN MI CASO(PUEDES ASGNAR UN VALOR QUE TU QUIERAS O USAR BOOLEANOS)
-		$row [ "tipo" ];
-		$nivel=$row [ "tipo" ];
+		$nivel=$row [ "nivel" ];
  	}
 
 		##echo "hay registros";
@@ -88,6 +87,7 @@ if ($numero_filas == 0 ) {
 			##########################
 			
 			session_start();
+			
 			$_SESSION['nivel']=$nivel;
 			$_SESSION['usuario']=$usu;
 			$_SESSION['clave']=$pass;
