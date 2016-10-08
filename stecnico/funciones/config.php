@@ -3,10 +3,10 @@
 //Gestion de errores
 define('REPORT',false);
 //reportes por log, on activo true, false
-define('LOGS',true);
+define('LOGS',false);
 //#### LOGIN
 //login log, on activo true, false
-define('LOGIN',true);
+define('LOGIN',false);
 //array de soporte
 //## exstraso
 // filas mostradas en el index
