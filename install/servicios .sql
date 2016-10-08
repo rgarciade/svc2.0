@@ -109,8 +109,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`nombre`, `pass`, `nivel`) VALUES
-('admin@admin.com', 'admin', 1),
-('user@user.com', 'user', 1);
+('admin', 'admin', 1),
+('user.com', 'user', 0);
 
 --
 -- Índices para tablas volcadas

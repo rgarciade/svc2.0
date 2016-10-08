@@ -42,7 +42,7 @@ if( isset($_GET['log'])){
       <div id="triangle"></div>
         <h1>Log in</h1>
           <form action="validar_usuario.php" method="post">
-            <input type="email" placeholder="Email" name="Email" required/>
+            <input type="text"  name="user" required/>
             <input type="password" placeholder="Password" name="Password" required/>
             <input type="checkbox" name="nocsesion">No cerrar sesión </br></br>
         	  <input type="submit" value="Log in" />
