@@ -871,3 +871,35 @@
 			  ------------------------------------------------------
 
 			  
+			     	[-- Sun, 09 Oct 2016 15:12:39 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sun, 09 Oct 2016 15:12:39 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sun, 09 Oct 2016 15:12:48 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Sun, 09 Oct 2016 15:12:48 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
