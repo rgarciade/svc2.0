@@ -13,43 +13,32 @@
     <section class="page-header">
       <h1 class="project-name">svc2.0</h1>
       <h2 class="project-tagline"> Instalación</h2>
+      <a href="./index.html" class="btn">Volver</a>
       <a href="https://github.com/rgarciade/svc2.0" class="btn">View on GitHub</a>
 
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="bienvenido-a-svc20" class="anchor" href="#bienvenido-a-svc20" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bienvenido a svc2.0</h3>
-
-<ul>
-<li>svc es un Gestor de servicios rápido e intuitivo para empresas.</li>
-</ul>
 
 <h3>
-<a id="funcionalidades" class="anchor" href="#funcionalidades" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Funcionalidades</h3>
+<a id="instalacion" class="anchor" href="#funcionalidades" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Elementos necesarios para la Instalacion</h3>
 
 <ul>
-<li><p>Gestión de servicios dados a múltiples clientes.</p></li>
-<li><p>Administración de usuarios y servicios dados.</p></li>
-<li><p>Busquedas por clientes, técnicos fechas etc.</p></li>
+<li><p>php.</p></li>
+<li><p>apache.</p></li>
+<li><p>mysql.</p></li><br>
+<li><p><b>yo uso <a href="http://www.wampserver.com/en/">wampserve</a></b> el cual implementa todos estos servicios</p></li>
 </ul>
-
 <h3>
-<a id="desarrollo-actual" class="anchor" href="#desarrollo-actual" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Desarrollo actual</h3>
+<a id="guiainstalacion" class="anchor" href="#proximas-actualizaciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Guia de instalacion</h3>
 
-<ul>
-<li>Implementación de bootstrap cómo estilo.</li>
-</ul>
-
-<h3>
-<a id="proximas-actualizaciones" class="anchor" href="#proximas-actualizaciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Proximas actualizaciones</h3>
-
-<ul>
-<li><p>Implementación de mensajes entre usuarios.</p></li>
-<li><p>Implementación de menú de administración para el roll de administrador.</p></li>
-<li><p>Incorporación de un menú de búsqueda más amigable.</p></li>
-<li><p>Mejorar las búsquedas.</p></li>
-</ul>
+<ol>
+<li><p>Descomprimir srv2.0 en la carpeta raiz de tu servidor.</p></li>
+<li><p>lanzar el scrip de creacion de la base de datros que se encuentra en la carpeta instalacion, con nombre creacion.sql.</p></li>
+<li><p>si tienes un archivo sql salvado de tu servicio importalo despues.</br> si es la primera vez que entras tienes un archivo llamado servicios.sql con tecnicos, clientes y servicios de prueba que podras modificarlo en tu base de datos.</p></li>
+<li><p>en el caso de alojar la base de datos en otra ruta que no sea localhost tendras k modificar el archivo configuracion/conexion.php </br>
+        y tendras que crear un usuario de nombre select con permisos de acceso externos.</p></li>
+</ol>
 
 <h3>
 <a id="tecnologias" class="anchor" href="#tecnologias" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tecnologias</h3>
