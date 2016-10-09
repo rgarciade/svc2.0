@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-10-2016 a las 14:23:37
+-- Tiempo de generación: 08-10-2016 a las 17:46:16
 -- Versión del servidor: 5.7.14
 -- Versión de PHP: 5.6.25
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `servicios`
 --
+CREATE DATABASE IF NOT EXISTS `servicios` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `servicios`;
 
 -- --------------------------------------------------------
 
@@ -35,18 +37,6 @@ CREATE TABLE `clientes` (
   `id_cli` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 
---
--- Volcado de datos para la tabla `clientes`
---
-
-INSERT INTO `clientes` (`cliente`, `contacto`, `telefono`, `calle`, `correo`, `id_cli`) VALUES
-('cliente1', 'pepe', '698569745', 'c/aaa', 'a@a.com', 1),
-('cliente2', 'pepe', '698569745', 'c/aaa', 'a@a.com', 2),
-('cliente3', 'pepe', '698569745', 'c/aaa', 'a@a.com', 3),
-('cliente4', 'pepe', '698569745', 'c/aaa', 'a@a.com', 4),
-('cliente5', 'pepe', '698569745', 'c/aaa', 'a@a.com', 5);
-
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `servicios`
@@ -66,14 +56,6 @@ CREATE TABLE `servicios` (
   `NUM_SERVICIO` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 
---
--- Volcado de datos para la tabla `servicios`
---
-
-INSERT INTO `servicios` (`N_CLIENTE`, `Estado`, `CONTACTOS`, `TECNICO`, `SOPORTE`, `HORA_INICIO`, `HORA_FIN`, `FECHA`, `TEXTO`, `PIEZAS`, `NUM_SERVICIO`) VALUES
-('cliente2', NULL, 'ww', '', 'PRESENCIAL', '16:23', '16:23', '2016-10-08', '', 'www', 1);
-
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `tecnicos`
@@ -83,14 +65,6 @@ CREATE TABLE `tecnicos` (
   `nombre_tecnico` varchar(50) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `tecnicos`
---
-
-INSERT INTO `tecnicos` (`nombre_tecnico`) VALUES
-('tecnico1'),
-('tecnico2'),
-('tecnico3');
 
 -- --------------------------------------------------------
 
@@ -103,14 +77,6 @@ CREATE TABLE `usuarios` (
   `pass` varchar(11) NOT NULL,
   `nivel` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `usuarios`
---
-
-INSERT INTO `usuarios` (`nombre`, `pass`, `nivel`) VALUES
-('admin', 'admin', 1),
-('user.com', 'user', 0);
 
 --
 -- Índices para tablas volcadas
@@ -136,12 +102,19 @@ ALTER TABLE `servicios`
 -- AUTO_INCREMENT de la tabla `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `id_cli` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_cli` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
 --
 -- AUTO_INCREMENT de la tabla `servicios`
 --
 ALTER TABLE `servicios`
-  MODIFY `NUM_SERVICIO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `NUM_SERVICIO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
+
+
+CREATE USER 'select'@'%' IDENTIFIED BY 'Qser12354xc^*';
+GRANT SELECT, INSERT, UPDATE ON *.* TO 'select'@'%';
+GRANT ALL PRIVILEGES ON `select\_%`.* TO 'select'@'%';
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

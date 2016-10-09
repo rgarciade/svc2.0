@@ -5,7 +5,7 @@ $Mlogin = "false";
 $Mfilas = "'20'";
 $Mnivel = "0";
 
-$file = fopen("../funciones/config.php", "w");
+$file = fopen("../../config/config.php");
 fwrite($file, "<?php" . PHP_EOL);
 fwrite($file, "//#### ERRORES" . PHP_EOL);
 fwrite($file, "//Gestion de errores" . PHP_EOL);

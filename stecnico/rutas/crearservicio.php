@@ -8,11 +8,17 @@
 		$cliente2=$_POST['N_CLIENTE'];
 		$contactos2=$_POST['CONTACTOS'];
 
-			if( isset($_POST['N_TECNICO'])){
-				$n_tecnico2=$_POST['N_TECNICO'];
+			if( isset($_POST['TECNICO'])){
+				$n_tecnico2=$_POST['TECNICO'];
 			}else{
-				$n_tecnico2= null;
+				
+				if( isset($_POST['Tecnico'])){
+					$n_tecnico2=$_POST['Tecnico'];
+				}else{
+					$n_tecnico2= null;
+				}		
 			}
+
 
 		$soporte2=$_POST['SOPORTE'];
 		$hora_inicio2=$_POST['HORA_INICIO'];
@@ -48,7 +54,7 @@
 				$Incidencia2= null;
 			}
 
-		include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+		include("../../config/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
 		?>
 		<div nombre="nuevo">

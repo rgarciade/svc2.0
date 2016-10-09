@@ -1,5 +1,5 @@
 <?PHP
-include("../funciones/funciones.php");
+include("../../config/conexion.php");
  #DATOS MODIFICAR
 #RECOJE EL VALOR ENVIAR DE CLIENTE
  	

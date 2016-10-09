@@ -1,23 +1,20 @@
 <?PHP
+
+include ("./config/conexion.php");
  #CONEXION VARIABLES Y CONDICIONES
  
                 ##### ##### ##### ##### #    
                 #####   variables   #####
 				##### ##### ##### ##### #  
- 
- ## DEFINIMOS LAS VARIABLES DE LA BASE DE DATOS, USUARIO DE ACCESO Y TIEMPO DE VIDA DE LA COOKIE....
-		# 1º tiempo de duracion de la cookie de id sesion "ms"
+
+ # TIEMPO DE VIDA DE LA COOKIE y destino al loguearte
+	# 1º tiempo de duracion de la cookie de id sesion "ms"
 			$tiempo=31104000;
-		#usuario base de datos 
-			$ubd="select";
-		#contraseña base de datos	
-			$cbd="123456";
-		#nombre base de datos
-			$nbd="servicios";
+	
 		#destino despues de validar
 			$ddv="location:./stecnico/rutas";
 		
-		
+	
   # variables obtenidas en el formulario del index y pasadas por post
 	
 if( isset($_POST['user'])){
@@ -43,13 +40,6 @@ if( isset($_POST['nocsesion'])){
 
 }
 
-#Conectamos con MySQL
-			$conexion = mysqli_connect("localhost",$ubd,$cbd)
-				or die ("Fallo en el establecimiento de la conexión");
-
-#Seleccionamos la base de datos a utilizar
-			mysqli_select_db($conexion,$nbd)
-			or die("Error en la selección de la base de datos");
 
 
 						# ################################### #

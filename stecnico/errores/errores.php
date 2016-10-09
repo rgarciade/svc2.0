@@ -1,5 +1,5 @@
 <?php
-include("../../stecnico/funciones/config.php");
+include("../../config/config.php");
 
 function gestionderror($type,$message,$file,$line){
 	$date = date("r");

@@ -1,5 +1,5 @@
 <?php
-include("../funciones/comun.php");
+include("../../config/config.php");
 
 
 function GestionConf($var,$const){
@@ -52,7 +52,7 @@ if( isset($_POST['filasindex'])){
 	}
 }
 
-$file = fopen("../../stecnico/funciones/config.php", "w");
+$file = fopen("../../config/config.php", "w");
 fwrite($file, "<?php" . PHP_EOL);
 fwrite($file, "//#### ERRORES" . PHP_EOL);
 fwrite($file, "//Gestion de errores" . PHP_EOL);
