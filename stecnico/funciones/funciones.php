@@ -1,7 +1,7 @@
 <div name="formula predictiva">
       <?php 
    #busqueda predictiva
-      include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+      include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
 
@@ -121,13 +121,14 @@ function Reorg_arr($ori,$arr,$length){
     
     $contador    = 0;
     $controlador = 0;
-    $arrfin         = array(); 
+    $iaux        = 0;
+    $arrfin      = array(); 
     for ($i=0; $i < $length ; $i++) { 
         if ($arr[$i] == $ori && $controlador == 0) {
           $iaux = $i;
           $i = $length;
       } 
-    }
+    };
     for ($z=0; $z < $length ; $z ++) { 
         
         $arrfin[$z] = $arr[$iaux] ;
@@ -215,7 +216,7 @@ function Menu($page,$srva){
     </div>
     ";
  
-    include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+    include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
 

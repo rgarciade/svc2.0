@@ -11,7 +11,7 @@ include("../funciones/funciones.php");
 	?>
 
 	<?php
-		include("conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+		include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 	?>
 	<div nombre="nuevo">
 	<?PHP

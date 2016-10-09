@@ -41,7 +41,7 @@ if (isset($_POST['borrar'])) {
 	$borrar = false;
 }
 
-include("../funciones/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
 # ################################### #
 ?>
