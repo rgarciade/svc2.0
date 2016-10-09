@@ -1,4 +1,5 @@
 # servicios2.0
+aplicacion de servicios dados para empresas.
 
 [Pagina Principal](http://rgarciade.github.io/svc2.0)
 
