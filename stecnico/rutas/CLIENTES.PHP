@@ -184,7 +184,7 @@
 		<div class="row FormurarioIndex">
 <form action="CREARMODIFICLIENTE.php" method="post" onSubmit="return" >
 	<div class="col-md-4">Nombre de Cliente<br>
-		<input class="form-control " type="text" name="N_CLIENTE"  placeholder="nombre de cliente" required>
+		<input class="form-control " type="text" name="N_CLIENTE" value="<?PHP echo $nom; ?>"" placeholder="nombre de cliente" required>
 	</div>
 	<div class="col-md-4">
 		CONTACTOS<br>			
