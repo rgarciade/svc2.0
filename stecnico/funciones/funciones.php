@@ -1,7 +1,7 @@
 <div name="formula predictiva">
       <?php 
    #busqueda predictiva
-      include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+      include("../../config/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
 
@@ -216,7 +216,7 @@ function Menu($page,$srva){
     </div>
     ";
  
-    include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+    include("../../config/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
         //arrays
 

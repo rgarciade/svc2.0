@@ -54,7 +54,7 @@
 				$Incidencia2= null;
 			}
 
-		include("../../conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
+		include("../../config/conexion.php");//se incluyen los datos para realizar la conexion a su base de datos
 
 		?>
 		<div nombre="nuevo">

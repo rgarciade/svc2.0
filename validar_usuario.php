@@ -1,6 +1,6 @@
 <?PHP
 
-include ("conexion.php");
+include ("./config/conexion.php");
  #CONEXION VARIABLES Y CONDICIONES
  
                 ##### ##### ##### ##### #    

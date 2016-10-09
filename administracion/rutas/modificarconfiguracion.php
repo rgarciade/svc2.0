@@ -1,5 +1,5 @@
 <?php
-include("../funciones/comun.php");
+include("../../config/config.php");
 
 
 function GestionConf($var,$const){
