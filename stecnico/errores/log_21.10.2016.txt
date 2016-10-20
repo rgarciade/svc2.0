@@ -1,0 +1,161 @@
+
+			     	[-- Fri, 21 Oct 2016 00:15:53 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:15:53 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:16:01 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:16:01 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:16:02 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:16:02 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:18:24 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:18:24 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:18:31 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:18:31 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:20:24 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:20:24 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:20:29 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:20:29 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:21:13 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:21:13 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:44:50 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RECHAGE - assumed 'RECHAGE'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 4 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:44:50 +0200 --]
+			  Error de Tipo: 8 .  Use of undefined constant RELOGTIME - assumed 'RELOGTIME'
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\rutas\index.php .
+			  Localizado en la linea --> 6 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:44:50 +0200 --]
+			  Error de Tipo: 8 .  Undefined offset: 4
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 127 
+			  
+			  ------------------------------------------------------
+
+			  
+			     	[-- Fri, 21 Oct 2016 00:44:50 +0200 --]
+			  Error de Tipo: 8 .  Undefined offset: 4
+			  Localizado en el fichero C:\wamp64\www\svc2.0\stecnico\funciones\funciones.php .
+			  Localizado en la linea --> 134 
+			  
+			  ------------------------------------------------------
+
+			  
