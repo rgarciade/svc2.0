@@ -11,6 +11,7 @@ include "../config/conexion.php";
 <body>
 
 <script >
+var nombreboton = 0;
 function creartd(variable,variable2,nboton){
 
 
@@ -41,13 +42,13 @@ function crearinput(form,nombre){
     document.getElementById("formularioboton").appendChild(inputt);
 }
 
-function crearformulario(array){
+function crearformulario(array,nombreboton){
 
     var form = document.createElement("FORM");
     form.setAttribute("id", "formularioboton");
     form.setAttribute("method", "post");
 
-    document.body.appendChild(form);
+    document.getElementById(nombreboton).appendChild(form);
 
     for(let i=0; i<array.length; i++){
     	crearinput(form,array[i]);
@@ -58,7 +59,7 @@ function crearformulario(array){
 	function enviarDatos(){
 		var nombre = document.getElementById('nombre').value;
 		var texto = document.getElementById('texto').value;
-		var nombreboton = 0;
+		
 
 		$.ajax({
 			type:'POST',
@@ -70,8 +71,8 @@ function crearformulario(array){
 					
 					creartd(nombre,texto,"boton"+nombreboton);
 					var array1 = ["cli", "con", "tec", "sop", "hini", "hfin","fech","tex","pie","ser"];
-					crearformulario(array1);
-					nombreboton+;
+					crearformulario(array1,"boton"+nombreboton);
+					nombreboton++;
 
 				}else{
 					$('#estado').html('error');
