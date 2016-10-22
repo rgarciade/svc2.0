@@ -2,8 +2,10 @@
 include "../config/conexion.php";
 include "jsajax/selectuser.php";
               $FILASINDEX = 4;
-        			$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT $FILASINDEX")
-        			or die("Error en la consulta SQL");
+        	/*		$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT $FILASINDEX")
+        			or die("Error en la consulta SQL");*/
+       $consulta = "SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT $FILASINDEX";
+			$result = mysqli_query($conexion, $consulta);
 
 
  ?>
