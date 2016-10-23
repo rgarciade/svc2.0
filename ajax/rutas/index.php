@@ -138,7 +138,7 @@ include "../funciones/funciones.php";
           <td >HORA_INI</td>  
           <td >HORA_FIN</td>
           <td >FECHA</Td>
-          <td >TEXTO</td>  
+        <td >TEXTO</td>  
           <td >PIEZAS</td>
           <td >N_SERVICIO</td>
           <td></td>
