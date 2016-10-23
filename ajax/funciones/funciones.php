@@ -9,7 +9,7 @@ function option($value,$count){
 
  function mostrar_select($arr,$name,$tamaño){
     echo "<div class=' col-md-$tamaño'>$name<br>
-           <select class='form-control' class='mayusculas' name='$name'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
+           <select class='form-control' class='mayusculas' id='$name' name='$name'pattern='|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|'required>";
         $count= 0;
         foreach ($arr as $key => $value) {
               option($value,$count);

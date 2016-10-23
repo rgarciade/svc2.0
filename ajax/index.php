@@ -15,6 +15,7 @@ include "funciones/funciones.php";
  	<script type="text/javascript" src="jsajax/jquery-3.1.1.min.js"></script>
  	<script type="text/javascript" src="jsajax/creartabla.js"></script>
  	<script type="text/javascript" src="jsajax/creartabla.js"></script>
+ 	<link type="text/css" href="css/index.css" rel="stylesheet" />
 <!-- Latest compiled and minified CSS -->
 
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,10 +27,10 @@ include "funciones/funciones.php";
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!--owesomecomplete-->
 	<link rel="stylesheet" type="text/css" href="awesomplete-gh-pages/awesomplete.css" >
-	<script src="awesomplete-gh-pages/awesomplete.min.js"></script>
-
+	<script src="awesomplete-gh-pages/awesomplete.js"></script>
+<!--
  <div class="formulario" >
-		<script>var array1 = ["cli", "con", "tec", "sop", "hini", "hfin","fech","tex","pie","ser"];</script>
+		
 	<form method="post" action="conectar.php">
 		<div id="estado">esperando</div></br>	
 		<label>nombre:</label></br>
@@ -44,88 +45,86 @@ include "funciones/funciones.php";
 
 
 		<label>texto:</label></br>
-		<input type="text" name="texto" id="texto" size="40"></br>
+		<input type="text" name="texto" id="textotop" size="40"></br>
 				<script>
-			var arrayformnombrestop = ['nombretop','texto'];
+			var arrayformnombrestop = ['nombretop','textotop'];
 			
 		</script>
 		<input type="button" value="insertar" onclick="enviarDatos(arrayformnombrestop,array1)"></br>
 	</form>
 ////////////////////////
+-->
 
 <div class="FormurarioIndex">
 
 
-  <form action="crearservicio.php" method="post" class="form-group">
+  <form action="crearservicio.php" method="post" name="formulario1" id="formulario1" class="form-group">
 
      
       <h2 style="text-align:center">Formulario de Servicios</h2>
     <div class="row FormurarioIndex">
 
 
-      <div class=" col-md-3">Nombre<br>
-        <input  class="form-control" id="bnombre" name="nombre"  class="mayusculas" required>
+      <div class="col-md-3">Nombre<br>
+
+        <input  class="form-control " id="nombre" name="nombre"  class="mayusculas" required>
         			<script>
-					var elemento = document.getElementById('bnombre');
-					console.log(arrayusersJS);
+					var elemento = document.getElementById('nombre');
+					
 					new Awesomplete(elemento,{
-						list: arrayusersJS
+						list: arrayusersJS,
+
 					});
 			</script>
 
         <br> 
       </div>
       <div class=" col-md-3">Soporte<br>
-        <select class="form-control mayusculas" name="SOPORTE" id ="idbsoporte" pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
+        <select class="form-control mayusculas" name="SOPORTE" id ="soporte" pattern="|^[a-z A-ZñÑáéíóúÁÉÍÓÚüÜ]*$|"required>
           <option></option>
           <option>PRESENCIAL</option>
           <option>REMOTO</optcion>
         </select>
       </div>
-      <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA"  id ="bfecha"  value="<?php echo date('Y-m-d'); ?>" /></div>
+      <div class=" col-md-3">Fecha <br><input  class="form-control" class="mayusculas" type="date" name="FECHA"  id ="fecha"  value="<?php echo date('Y-m-d'); ?>" /></div>
       <div class=" col-md-3">Contacto <br>
        
-        <input  class="form-control" type="text" name="CONTACTOS"   id ="bcontactos" class="mayusculas"/>
+        <input  class="form-control" type="text" name="CONTACTOS"   id ="contactos" class="mayusculas"/>
       
       </div>
     </div> 
     <div class="row">
       <div class=" col-md-3">Hora Inicio<br>
       
-        <input  class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO"  id ="bhorainicio" value="<?php echo date('H:i'); ?>"/>
+        <input  class="form-control" class="mayusculas" type="datetime" name="HORA_INICIO"  id ="horainicio" value="<?php echo date('H:i'); ?>"/>
      
       </div>
       <div class=" col-md-3">Hora Fin<br>
         
-        <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN"  id ="bhorafin" value="<?php echo date('H:i'); ?>" />
+        <input   class="form-control"class="mayusculas" type="datetime" name="HORA_FIN"  id ="horafin" value="<?php echo date('H:i'); ?>" />
       
       </div>
-      <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  id ="bpiezas"  /></div>
+      <div class=" col-md-3">Piezas <br><input  class="form-control"class="mayusculas" type="text" name="PIEZAS"  id ="piezas"  /></div>
       <?php mostrar_select($arr_Tecnicos_orig,"Tecnico",3);?>
       </div>  
-      <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="texto" id="btexto" ></textarea></div>
+      <div class=" col-md-12"><h4 style="text-align:center">Anotaciones</h4> <br><textarea class="form-control mayusculas" type="text" name="texto" id="texto" ></textarea></div>
      
 
     </div>
 		<script>
-			var arrayformnombres = ['bnombre', 'bsoporte', 'bfecha', 'bcontactos', 'bhorainicio', 'bhorafin', 'bpiezas','btexto'];
-			
+		 	const array1 = ["cli", "con", "tec", "sop", "hini", "hfin","fech","tex","pie","ser"];
+			const arrayformnombress = ['nombre','contactos','Tecnico','soporte', 'horainicio','horafin','fecha','texto', 'piezas'];
+
+			function enviar_formulario(){ 
+				document.formulario1.submit() 
+			}
 		</script>
-      <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="button" value="insertar" onclick="enviarDatos(arrayformnombres,array1)"/></div>
+      <div style="text-align:center"><br><input  class="mayusculas btn btn-primary " type="button" value="insertar" onclick="nservicio =enviarDatos(arrayformnombress,'formulario1',array1,nservicio)"/></div>
 
     </div>
   </form>
 </div>
-
-
-
-
-
-	///////////////////////
-
-
-
-//////////////////
+</br>
 
 
 <div class="table-responsive" >
@@ -144,9 +143,9 @@ include "funciones/funciones.php";
           <td></td>
           <td></td>
         </tr>
-       	
+       	<script> var control_tabla = true;</script>
         <?PHP			
-
+        
         while( $row = mysqli_fetch_array ( $result )) {
         	$row [ "NUM_SERVICIO" ];
         	$a=$row [ "NUM_SERVICIO" ];
@@ -191,10 +190,19 @@ include "funciones/funciones.php";
              
               <button class="mayusculas btn btn-success glyphicon glyphicon-pencil"  type="submit" value=""></input>    
             </form>
+
+                    <script>
+                    if (control_tabla) {
+	                    var nservicio=<?php echo $ser;?>;
+	                    control_tabla = false;
+                    }
+
+                    </script>
            <?php 
           echo "</td>";
-        }
-        ?>
+        }?>
+
+        
         </tr>
 
     </table>

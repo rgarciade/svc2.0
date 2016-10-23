@@ -16,12 +16,13 @@ var _ = function (input, o) {
 
 	this.input = $(input);
 	this.input.setAttribute("autocomplete", "off");
+	this.input.setAttribute("size","26");
 	this.input.setAttribute("aria-autocomplete", "list");
 
 	o = o || {};
 
 	configure(this, {
-		minChars: 2,
+		minChars: 0,
 		maxItems: 10,
 		autoFirst: false,
 		data: _.DATA,
