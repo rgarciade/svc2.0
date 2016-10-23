@@ -16,7 +16,7 @@ var _ = function (input, o) {
 
 	this.input = $(input);
 	this.input.setAttribute("autocomplete", "off");
-	this.input.setAttribute("size","26");
+	this.input.setAttribute("size","52");
 	this.input.setAttribute("aria-autocomplete", "list");
 
 	o = o || {};

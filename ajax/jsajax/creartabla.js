@@ -99,20 +99,26 @@ let datos = crear_arraypost(arraytipos,arraytiposnombres);
 
 		$.ajax({
 			type:'POST',
-			url:'conectar.php',
+			url:'enviarservicio.php',
 			data:(datos),
 			success:function(respuesta) {
 				if (respuesta==200) {
-					$('#estado').html('enviadoo');
+					$('#estado').html('');
 					
 					creartd(arraytipos,arraytiposnombres,formname,id,"boton"+nombreboton,array1);
 					
 					//crearformulario(array1,"boton"+nombreboton);
 					nombreboton++;
 
+				}else if (respuesta==400){
+						$('#estado').html('faltan datos');
+				}else if (respuesta==2001){
+						$('#estado').html('cliente incorrecto');	
 				}else{
 					$('#estado').html('error');
 				}
+					
+				
 			}
 			
 		});
