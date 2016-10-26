@@ -99,7 +99,7 @@ let datos = crear_arraypost(arraytipos,arraytiposnombres);
 
 		$.ajax({
 			type:'POST',
-			url:'enviarservicio.php',
+			url:'../funciones/enviarservicio.php',
 			data:(datos),
 			success:function(respuesta) {
 				if (respuesta==200) {

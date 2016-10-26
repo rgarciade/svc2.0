@@ -1,33 +1,13 @@
 <?php 
-include "../../config/conexion.php";
-include "../jsajax/selectuser.php";
-include "../funciones/funciones.php";
+
+include "comun.php";
               $FILASINDEX = 10;
         	/*		$result = mysqli_query ($conexion,"SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT $FILASINDEX")
         			or die("Error en la consulta SQL");*/
        $consulta = "SELECT * FROM servicios order by NUM_SERVICIO DESC LIMIT $FILASINDEX";
 			$result = mysqli_query($conexion, $consulta);
-
-
  ?>
-<!DOCTYPE html>
-<html>
- 	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
- 	<script type="text/javascript" src="../jsajax/creartabla.js"></script>
- 	<script type="text/javascript" src="../jsajax/creartabla.js"></script>
- 	<link type="text/css" href="../css/index.css" rel="stylesheet" />
-<!-- Latest compiled and minified CSS -->
 
-<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!--owesomecomplete-->
-	<link rel="stylesheet" type="text/css" href="../awesomplete-gh-pages/awesomplete.css" >
-	<script src="../awesomplete-gh-pages/awesomplete.js"></script>
 <!--
  <div class="formulario" >
 		
@@ -54,7 +34,7 @@ include "../funciones/funciones.php";
 	</form>
 ////////////////////////
 -->
-
+<body>
 <div class="FormurarioIndex">
 
 
@@ -70,13 +50,13 @@ include "../funciones/funciones.php";
 
         <input  class="form-control " id="nombre" name="nombre"  class="mayusculas" required>
         			<script>
-					var elemento = document.getElementById('nombre');
-					
-					new Awesomplete(elemento,{
-						list: arrayusersJS,
+        					var elemento = document.getElementById('nombre');
+        					
+        					new Awesomplete(elemento,{
+        						list: arrayusersJS,
 
-					});
-			</script>
+        					});
+			       </script>
 
         <br> 
       </div>
@@ -128,7 +108,7 @@ include "../funciones/funciones.php";
 </br>
 
 
-<div class="table-responsive" >
+<div class="table-responsive col-xs-8 col-md-12 col-sm-12" >
        <table class="table table-striped"style="width: 100%" id="tablabot" >
         <tr colspan="5"  class="info"style="table-layout: fixed; width:100% ;height:2%";>
           <td>N_CLIENTE</td>
@@ -138,8 +118,8 @@ include "../funciones/funciones.php";
           <td >HORA_INI</td>  
           <td >HORA_FIN</td>
           <td >FECHA</Td>
-        <td >TEXTO</td>  
-          <td >PIEZAS</td>
+<!--        <td >TEXTO</td>  
+          <td >PIEZAS</td>-->
           <td >N_SERVICIO</td>
           <td></td>
           <td></td>
@@ -166,9 +146,9 @@ include "../funciones/funciones.php";
 
               $fech = Element_tabla($row,"FECHA");
 
-              $tex  = Element_tabla($row,"TEXTO");
+              $tex  = $row ["TEXTO"];
 
-              $pie  = Element_tabla($row,"PIEZAS");
+              $pie  = $row ["PIEZAS"];
 
               $ser  = Element_tabla($row,"NUM_SERVICIO");
 
@@ -207,7 +187,7 @@ include "../funciones/funciones.php";
         </tr>
 
     </table>
-
+</div>
 </div>
 
 </body>

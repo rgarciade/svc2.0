@@ -12,3 +12,9 @@
 	margin-left: -10% !important;
 	text-align:center !important;
 }
+.oculto{
+	visibility: hidden;
+}
+.visible{
+	visibility: ;
+}
